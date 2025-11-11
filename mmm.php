@@ -11,21 +11,32 @@
 
 <body>
     <?php include("header.php"); ?>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 d-flex justify-content-center mt-5">
-                <div class="mb-4 mb-md-0 custom-img" data-aos="fade-up" data-aos-delay="600"
-                    style="height: auto; overflow:hidden; width: auto;">
-
-                    <img src="assets/img/mmm/mmm.png"
-                        alt="img"
-                        class="img-fluid rounded"
-                        style="object-fit: cover; max-width: 100%; height: auto;">
-
+    <div class="container d-flex justify-content-center">
+        <div class="row pt-5">
+            <div class="col-lg-12 d-flex justify-content-center mt-5 pt-5  ">
+                <h1 class="mt-">MAINTENANCE MACHINERY MANAGEMENT</h1>
+            </div>
+            <div class="mb-4 mb-md-0 custom-img" data-aos="fade-up" data-aos-delay="600"
+                style="height: auto; overflow: hidden; width: auto; display: flex; justify-content: center;">
+                <img src="assets/img/mmm/kent-usa-logo.png"
+                    alt="Kent USA Logo"
+                    class="img-fluid rounded"
+                    style="object-fit: cover; max-width: 30vw; height: auto; margin-left:28vw;margin-top:-5vw;">
+            </div>
+            <div class="col-md-12">
+                <div class="col-md-6">
+                    <div class="mb-4 mb-md-0 custom-img" data-aos="fade-up" data-aos-delay="600"
+                        style="height: auto; overflow: hidden; width: auto; display: flex; justify-content: center;">
+                        <img src="assets/img/mmm/kent-usa-product.png"
+                            alt="Kent USA Logo"
+                            class="img-fluid rounded"
+                            style="object-fit: cover; max-width: 30vw; height: auto; margin-top:-5vw;">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
 
 
     <?php include("footer.php"); ?>
