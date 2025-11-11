@@ -1,0 +1,17 @@
+# XAMPP/Apache
+*.log
+apache/logs/
+xampp/
+
+# PHP/Web Project
+vendor/
+.env
+*.cache
+*.tmp
+
+# VS Code
+.vscode/
+
+# OS Files
+Thumbs.db
+.DS_Store

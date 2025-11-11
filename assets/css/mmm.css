@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    background: linear-gradient(to top, black, black);
+
+
+}
+
+@media(max-width:400px) {
+    .container {
+        width: 100%;
+        margin-top: 10%;
+        
+    }
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 100%;
+    }
+}

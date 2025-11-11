@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    background: linear-gradient(to bottom right, rgb(98, 98, 98), transparent);
+}
+
+@media(max-width:400px) {
+    .container {
+        width: 100%;
+        margin-top: 10%;
+
+    }
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 100%;
+    }
+}
+
+/* Keyframes for infinite floating animation */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Keyframes for logo pulse animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.10);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Apply floating animation to images */
+.hover-img {
+    animation: float 3s ease-in-out infinite;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover effects for images */
+.hover-img:hover {
+    transform: scale(1.50) translateY(-15px) rotate(3deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    filter: brightness(1.1);
+}
+
+/* Logo animation without hover effect */
+.img-fluid:not(.hover-img) {
+    animation: pulse 4s ease-in-out infinite;
+}
+
+.underline-bar {
+    width: clamp(60px, 10vw, 100px);
+    height: 5px;
+    background: linear-gradient(90deg, #484a48, #e3dfd9);
+    margin: 12px auto;
+    border-radius: 3px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+}

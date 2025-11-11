@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+@media(max-width:400px) {
+    .container {
+        width: 100%;
+        margin-top: 10%;
+        
+    }
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 100%;
+    }
+}
+
+.core-section1 h1 {
+    margin-top: 10vh;
+    padding: 60px;
+    background: linear-gradient(rgba(0, 51, 119, 0.7), rgba(75, 108, 183, 0.7)),
+                url("assets/img/polysoude/product1.png") center/cover no-repeat;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 800;
+}
+
+
+.core-section2 h1 {
+    margin-top: 10vh;
+    padding: 60px;
+    background: linear-gradient(rgba(0, 123, 255, 0.7), rgba(106, 17, 203, 0.7)),
+                url("your-image2.jpg") center/cover no-repeat;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.core-section3 h1 {
+    margin-top: 10vh;
+    padding: 60px;
+    background: linear-gradient(rgba(0, 51, 119, 0.7), rgba(40, 167, 69, 0.7)),
+                url("your-image3.jpg") center/cover no-repeat;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.core {
+    justify-content: space-around;
+}
+
+.core-headers1 {
+    color: #fff;
+}

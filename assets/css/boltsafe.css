@@ -1,0 +1,132 @@
+body {
+            font-family: 'Arial', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .header-1 {
+            position: static;
+            background: linear-gradient(135deg, rgba(4, 36, 101, 0.8), rgba(0, 28, 83, 0.8));
+            color: white;
+            animation: fadeInHero 2s ease-in-out;
+        }
+
+        .bg-header {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            position: relative; 
+           
+        }
+
+        .bg-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            z-index: 1;
+        }
+        
+        .header-1 h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            animation: slideInLeft 1.5s ease-out;
+            color: white;
+        }
+
+        .header-sub {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            animation: slideInRight 1.5s ease-out;
+        }
+
+        .boltsafe-btn {
+            background: linear-gradient(90deg, #0044cc, #3399ff);
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            animation: bounceIn 2s ease-in-out;
+        }
+
+        .boltsafe-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 10px 20px rgba(0, 68, 204, 0.5);
+        }
+
+        .video-frame {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.5s;
+        }
+
+        .video-frame:hover {
+            transform: scale(1.02);
+        }
+
+        .custom-img {
+            transition: transform 0.5s ease, box-shadow 0.5s ease;
+            border-radius: 20px;
+            overflow: hidden;
+           
+            object-fit: fill;
+        }
+
+        .custom-img:hover {
+            transform: scale(1);
+            box-shadow: 0 15px 40px rgba(0, 68, 204, 0.3);
+        }
+
+        .custom-img img {
+            transition: transform 1s ease;
+        }
+
+        .custom-img:hover img {
+            transform: scale(1);
+        }
+
+        .section-title {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 5px;
+            background: linear-gradient(90deg, #0044cc, #3399ff);
+            border-radius: 5px;
+            animation: glow 2s infinite alternate;
+        }
+
+       
+        
+
+        
+        .product-section {
+            
+            padding: 50px 0;
+            border-radius: 20px;
+            margin: 20px 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .header-1 h1 { font-size: 2.5rem; }
+            .header-sub { font-size: 1.2rem; }
+            .custom-img { height: auto !important; }
+        }

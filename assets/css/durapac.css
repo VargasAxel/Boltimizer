@@ -1,0 +1,139 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.fancy-heading {
+    position: relative;
+    top: -10vw;
+    text-align: left;
+    font-size: clamp(2rem, 8vw, 4.3rem);
+    font-weight: 700;
+    background: linear-gradient(90deg, #ff4b2b, #ff416c, #ff9966);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: fadeInUp 1.5s ease-out;
+    letter-spacing: clamp(1px, 0.5vw, 2px);
+}
+
+.fancy-heading::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 0%;
+    height: 5px;
+    background: linear-gradient(90deg, #ff4b2b, #ff416c, #ff9966);
+    animation: underlineGrow 2s ease forwards 1.2s;
+    border-radius: 5px;
+}
+
+.hover-img {
+    object-fit: cover;
+    width: 100%;
+    max-width: 90vw;
+    height: auto;
+    max-height: 80vh;
+    margin-top: 2vh;
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+    border-radius: 15px;
+}
+
+/* Hover animation */
+.hover-img:hover {
+    transform: scale(1.07);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(px);
+    }
+}
+
+@keyframes underlineGrow {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        width: 0;
+        opacity: 0;
+    }
+    to {
+        width: clamp(40px, 10vw, 80px);
+        opacity: 1;
+    }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .fancy-heading {
+        top: -5vw;
+        font-size: clamp(1.5rem, 6vw, 3rem);
+        letter-spacing: 1px;
+    }
+
+    .hover-img {
+        max-width: 95vw;
+        max-height: 60vh;
+        margin-top: 1vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .fancy-heading {
+        font-size: clamp(1.2rem, 5vw, 2.5rem);
+        top: -3vw;
+    }
+
+    .hover-img {
+        max-width: 100%;
+        max-height: 50vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        margin-top: 5%;
+        padding: 0 5px;
+    }
+
+    .fancy-heading {
+        font-size: clamp(1rem, 4vw, 2rem);
+        letter-spacing: 0.5px;
+    }
+
+    .hover-img {
+        max-width: 100%;
+        max-height: 40vh;
+        border-radius: 10px;
+    }
+}
