@@ -217,7 +217,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 text-left">
+            <div class="col-md-12 text-center">
                 <h1>Services</h1>
                 <div class="underline-bar" style="animation: slideIn 1s ease-in-out;"></div>
                 <p>
@@ -227,7 +227,7 @@
                         and dependable support</strong> to keep your operations running with efficiency and confidence.
                 </p>
             </div>
-            <div class="col-md-12 mt-5 pt-5">
+            <!-- <div class="col-md-12 mt-5 pt-5">
                 <div class="video-frame">
                     <iframe
                         src="https://www.youtube.com/embed/ONDBmm1q1L4?autoplay=1&mute=1&loop=1&playlist=ONDBmm1q1L4"
@@ -237,11 +237,11 @@
                         loading="lazy">
                     </iframe>
                 </div>
-            </div>
+            </div> -->
         </div>
 
         <div class="row">
-            <div class="col-md-12 text-left mt-5 pt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <div class="col-md-12 text-center mt-5 pt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                 <h1>Durapac Products</h1>
                 <div class="underline-bar"></div>
                 <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
@@ -255,7 +255,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 mt-5 pt-5 text-left">
+            <div class="col-md-12 mt-5 pt-5 text-center">
                 <h1>Special Lifting Systems</h1>
                 <div class="underline-bar"></div>
             </div>
@@ -336,7 +336,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 mt-5 pt-5 text-left">
+            <div class="col-md-12 mt-5 pt-5 text-center">
                 <h1>Hydraulic Cylinders</h1>
                 <div class="underline-bar"></div>
             </div>
@@ -397,7 +397,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 mt-5 pt-5 text-left">
+            <div class="col-md-12 mt-5 pt-5 text-center">
                 <h1>Hydraulic Pumps / Power Units</h1>
                 <div class="underline-bar"></div>
             </div>
@@ -476,7 +476,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 mt-5 pt-5 text-left">
+            <div class="col-md-12 mt-5 pt-5 text-center">
                 <h1>Hydraulic Jacks</h1>
                 <div class="underline-bar"></div>
             </div>
@@ -537,7 +537,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 mt-5 pt-5 text-left">
+            <div class="col-md-12 mt-5 pt-5 text-center">
                 <h1>Hydraulic Bolting Solutions</h1>
                 <div class="underline-bar"></div>
             </div>
@@ -580,7 +580,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 mt-5 pt-5 text-left">
+            <div class="col-md-12 mt-5 pt-5 text-center">
                 <h1>Hydraulic Tools</h1>
                 <div class="underline-bar"></div>
             </div>
@@ -641,7 +641,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 mt-5 pt-5 text-left">
+            <div class="col-md-12 mt-5 pt-5 text-center">
                 <h1>Hydraulic Presses</h1>
                 <div class="underline-bar"></div>
             </div>
@@ -702,7 +702,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 mt-5 pt-5 text-left">
+            <div class="col-md-12 mt-5 pt-5 text-center">
                 <h1>Air Bags</h1>
                 <div class="underline-bar"></div>
             </div>
@@ -726,7 +726,7 @@
             </div>
         </div>
 
-        <div class="container text-left py-4 mt-5">
+        <div class="container text-center py-4 mt-5">
             <div class="social-links mb-2" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
                 <a href="https://www.facebook.com/boltimizercorp" target="_blank"><i class="bi bi-facebook"></i></a>
                 <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter-x"></i></a>
