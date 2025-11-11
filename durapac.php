@@ -201,7 +201,7 @@
     <?php include("header.php"); ?>
     <div class="container-fluid px-5">
         <div class="row align-items-center">
-            <div class="col-md-6 text-center">
+            <div class="col-md-6 text-left">
                 <img src="assets/img/durapac/DURAPAC WHITE LOGO.png"
                     alt="Logo"
                     class="img-fluid">
@@ -209,7 +209,7 @@
                     A LEADING FORCE IN HIGH PRESSURE HYDRAULIC TOOLS
                 </h1>
             </div>
-            <div class="col-md-6 text-center">
+            <div class="col-md-6 text-left">
                 <img src="assets/img/durapac/landing pic.png"
                     alt="img"
                     class="hover-img img-fluid rounded">
@@ -217,7 +217,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-left">
                 <h1>Services</h1>
                 <div class="underline-bar" style="animation: slideIn 1s ease-in-out;"></div>
                 <p>
@@ -241,7 +241,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 text-center mt-5 pt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <div class="col-md-12 text-left mt-5 pt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                 <h1>Durapac Products</h1>
                 <div class="underline-bar"></div>
                 <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
@@ -255,7 +255,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 mt-5 pt-5 text-center">
+            <div class="col-md-12 mt-5 pt-5 text-left">
                 <h1>Special Lifting Systems</h1>
                 <div class="underline-bar"></div>
             </div>
@@ -269,7 +269,7 @@
                         class="img-fluid rounded product-img">
                 </div>
             </div>
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>DJS-Series Jack Stands</h3>
                 <p>
@@ -282,7 +282,7 @@
         </div>
 
         <div class="row align-items-center">
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>Tall SDL Lifting Jack & Stand</h3>
                 <p>
@@ -307,7 +307,7 @@
                         class="img-fluid rounded product-img">
                 </div>
             </div>
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>SDN Jack + POWERDRIVE</h3>
                 <p>
@@ -318,7 +318,7 @@
         </div>
 
         <div class="row align-items-center">
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>SYNC MASTER® Synchronous Lift System</h3>
                 <p>
@@ -336,7 +336,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 mt-5 pt-5 text-center">
+            <div class="col-md-12 mt-5 pt-5 text-left">
                 <h1>Hydraulic Cylinders</h1>
                 <div class="underline-bar"></div>
             </div>
@@ -350,7 +350,7 @@
                         class="img-fluid rounded product-img">
                 </div>
             </div>
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>RG-Series S/A, Collar Thread</h3>
                 <p>
@@ -361,7 +361,7 @@
         </div>
 
         <div class="row align-items-center">
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>AC-Series S/A, Aluminium</h3>
                 <p>
@@ -386,7 +386,7 @@
                         class="img-fluid rounded product-img">
                 </div>
             </div>
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>PD-Series Diesel Driven Single Speed Radial Piston Power Units</h3>
                 <p>
@@ -397,14 +397,14 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 mt-5 pt-5 text-center">
+            <div class="col-md-12 mt-5 pt-5 text-left">
                 <h1>Hydraulic Pumps / Power Units</h1>
                 <div class="underline-bar"></div>
             </div>
         </div>
 
         <div class="row align-items-center">
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>PD-Series Diesel Driven Single Speed Radial Piston Power Units</h3>
                 <p>
@@ -429,7 +429,7 @@
                         class="img-fluid rounded product-img">
                 </div>
             </div>
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>BP114A Battery Hydraulic Power</h3>
                 <p>
@@ -440,7 +440,7 @@
         </div>
 
         <div class="row align-items-center">
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>P-290 Steel Bodied Hand Pumps</h3>
                 <p>
@@ -465,7 +465,7 @@
                         class="img-fluid rounded product-img">
                 </div>
             </div>
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>DAT-Series Air Torque Wrench Power Units</h3>
                 <p>
@@ -476,14 +476,14 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 mt-5 pt-5 text-center">
+            <div class="col-md-12 mt-5 pt-5 text-left">
                 <h1>Hydraulic Jacks</h1>
                 <div class="underline-bar"></div>
             </div>
         </div>
 
         <div class="row align-items-center">
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>TJ-Series Toe</h3>
                 <p>
@@ -508,7 +508,7 @@
                         class="img-fluid rounded product-img">
                 </div>
             </div>
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>DBJ-Series Bottle</h3>
                 <p>
@@ -519,7 +519,7 @@
         </div>
 
         <div class="row align-items-center">
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>DRJ-10 Rail Jack</h3>
                 <p>
@@ -537,7 +537,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 mt-5 pt-5 text-center">
+            <div class="col-md-12 mt-5 pt-5 text-left">
                 <h1>Hydraulic Bolting Solutions</h1>
                 <div class="underline-bar"></div>
             </div>
@@ -551,7 +551,7 @@
                         class="img-fluid rounded product-img">
                 </div>
             </div>
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>DBW-Series Back-up</h3>
                 <p>
@@ -562,7 +562,7 @@
         </div>
 
         <div class="row align-items-center">
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>LPC-Series Low Profile Hexagon</h3>
                 <p>
@@ -580,7 +580,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 mt-5 pt-5 text-center">
+            <div class="col-md-12 mt-5 pt-5 text-left">
                 <h1>Hydraulic Tools</h1>
                 <div class="underline-bar"></div>
             </div>
@@ -594,7 +594,7 @@
                         class="img-fluid rounded product-img">
                 </div>
             </div>
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>HC-24S Self-contained</h3>
                 <p>
@@ -605,7 +605,7 @@
         </div>
 
         <div class="row align-items-center">
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>DNS-Series</h3>
                 <p>
@@ -630,7 +630,7 @@
                         class="img-fluid rounded product-img">
                 </div>
             </div>
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>DLW-Series</h3>
                 <p>
@@ -641,14 +641,14 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 mt-5 pt-5 text-center">
+            <div class="col-md-12 mt-5 pt-5 text-left">
                 <h1>Hydraulic Presses</h1>
                 <div class="underline-bar"></div>
             </div>
         </div>
 
         <div class="row align-items-center">
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>HP-10 Bench</h3>
                 <p>
@@ -673,7 +673,7 @@
                         class="img-fluid rounded product-img">
                 </div>
             </div>
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>HRP-Series Roll Frame</h3>
                 <p>
@@ -684,7 +684,7 @@
         </div>
 
         <div class="row align-items-center">
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>Air Hydraulic Driven H-Frame</h3>
                 <p>
@@ -702,7 +702,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 mt-5 pt-5 text-center">
+            <div class="col-md-12 mt-5 pt-5 text-left">
                 <h1>Air Bags</h1>
                 <div class="underline-bar"></div>
             </div>
@@ -716,7 +716,7 @@
                         class="img-fluid rounded product-img">
                 </div>
             </div>
-            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-center"
+            <div class="col-md-6 d-flex flex-column mt-5 pt-5 text-left"
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <h3>KPL-Series High Pressure</h3>
                 <p>
@@ -726,7 +726,7 @@
             </div>
         </div>
 
-        <div class="container text-center py-4 mt-5">
+        <div class="container text-left py-4 mt-5">
             <div class="social-links mb-2" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
                 <a href="https://www.facebook.com/boltimizercorp" target="_blank"><i class="bi bi-facebook"></i></a>
                 <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter-x"></i></a>
