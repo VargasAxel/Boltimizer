@@ -14,7 +14,7 @@
     <div class="container d-flex justify-content-center">
         <div class="row pt-5">
             <div class="col-lg-12 d-flex justify-content-center mt-5 pt-5  ">
-                <h1 class="mt-">MAINTENANCE MACHINERY MANAGEMENTs</h1>
+                <h1 class="mt-">MAINTENANCE MACHINERY MANAGEMENTss</h1>
             </div>
             <div class="mb-4 mb-md-0 custom-img" data-aos="fade-up" data-aos-delay="600"
                 style="height: auto; overflow: hidden; width: auto; display: flex; justify-content: center;">
