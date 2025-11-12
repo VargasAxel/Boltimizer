@@ -49,11 +49,16 @@ include("footer.php");
         <div class="col-lg-6">
           <div class="hero-image aos-init aos-animate" data-aos="zoom-out" data-aos-delay="300">
 
-            <div class="video-frame" style="height: 450px; width:750px; overflow: hidden;" style="margin-left: -100px;" >
-              <video controls autoplay muted loop class="bg-video" style="height: 100%; width: 100%; object-fit: fill;">
-                <source src="assets/video/boltimizer.mp4" type="video/mp4">
-              </video>
-            </div>
+           <div class="video-frame" style="height: 450px; width: 42vw; overflow: hidden; ">
+  <iframe 
+    width="100%" 
+    height="450" 
+    src="https://www.youtube.com/embed/knalkqGXt0k?autoplay=1&mute=1&loop=1&controls=1" 
+    frameborder="0" 
+    allow="autoplay; encrypted-media" 
+    allowfullscreen>
+  </iframe>
+</div>
 
             <!-- ICON INSIDE VIDEO 
             <div class="customers-badge">
