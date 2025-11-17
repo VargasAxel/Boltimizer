@@ -59,26 +59,26 @@
                 <ul>
                   <li><li><a href="hytorc.php"><b>SMART BOLTING SYSTEMS</b></a></li></li>
                   <li><li><a href="durapac.php"><b>LIFTING SYSTEMS</b></a></li></li>
-                  <li><li><a href="https://boltsafe.com/"><b>LOAD MEASURING SYSTEM</b></a></li></li>
+                  <li><li><a href="boltsafe.php"><b>LOAD MEASURING SYSTEM</b></a></li></li>
                   <li><li><a href="boltclean.php"><b>THREAD CLEANING SOLUTION</b></a></li></li>
-                  <li><li><a href="https://www.protemusa.com/"><b>CUTTING AND BEVELING MACHINE</b></a></li></li>
+                  <li><li><a href="protem.php"><b>CUTTING AND BEVELING MACHINE</b></a></li></li>
                 </ul>
               </li>
               <li class="dropdown">
                 <a href="mmm.php"><b>MAINTENANCE MACHINERY <br> MANAGEMENT</b><i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><li><a href="https://www.egamaster.com/en"><b>INDUSTRIAL HAND TOOLS</b></a></li></li>
-                  <li><li><a href="https://kentusa.com/"><b>MACHINE TOOLS (CNC,LATHE)</b></a></li></li>
-                  <li><li><a href="https://www.hilmanrollers.com/"><b>HEAVY LOAD MOVING SOLUTIONS</b></a></li></li>
-                  <li><li><a href="https://www.tavolgroup.com/"><b>HOIST AND CRANES</b></a></li></li>
-                  <li><li><a href="https://www.jdngroup.com/"><b>PNEUMATIC HOIST</b></a></li></li>
-                  <li><li><a href="http://www.jfcompressor.com/"><b>AIR COMPRESSOR</b></a></li></li>  
+                  <li><li><a href="ega.php"><b>INDUSTRIAL HAND TOOLS</b></a></li></li>
+                  <li><li><a href="kentusa.php"><b>MACHINE TOOLS (CNC,LATHE)</b></a></li></li>
+                  <li><li><a href="hilman.php"><b>HEAVY LOAD MOVING SOLUTIONS</b></a></li></li>
+                  <li><li><a href="tavol.php"><b>HOIST AND CRANES</b></a></li></li>
+                  <li><li><a href="JDN.php"><b>PNEUMATIC HOIST</b></a></li></li>
+                  <li><li><a href="JF.php"><b>AIR COMPRESSOR</b></a></li></li>  
                 </ul>
             </li>
               <li class="dropdown">
                 <a href="ec.php"><b>ENGINEERING CONTROLS HAZARD</BR></b><i class="bi bi-chevron-down toggle-dropdown"></i></a> 
               <ul>
-                  <li><li><a href="https://www.spilldoc.sg/"><b>SPILL CONTROL</b></a></li></li>
+                  <li><li><a href="Spilldoc.php"><b>SPILL CONTROL</b></a></li></li>
                   <li><li><a href="https://www.hiephoa.com.vn/en"><b>SPECIALIZED VEHICLE</b></a></li></li>
                   <li><li><a href="https://www.draeger.com/en-us_us/Home"><b>MEDICAL AND SAFETY SOLUTIONS</b></a></li></li>
                   <li><li><a href="https://www.tankersco.ph/about-us/"><b>OIL TANKERS</b></a></li></li>
@@ -108,26 +108,26 @@
                 <ul>
                   <li><li><a href="hytorc.php"><b>SMART BOLTING SYSTEMS</b></a></li></li>
                   <li><li><a href="durapac.php"><b>LIFTING SYSTEMS</b></a></li></li>
-                  <li><li><a href="https://boltsafe.com/"><b>LOAD MEASURING SYSTEM</b></a></li></li>
+                  <li><li><a href="boltsafe.php"><b>LOAD MEASURING SYSTEM</b></a></li></li>
                   <li><li><a href="boltclean.php"><b>THREAD CLEANING SOLUTION</b></a></li></li>
-                  <li><li><a href="https://www.protemusa.com/"><b>CUTTING AND BEVELING MACHINE</b></a></li></li>
+                  <li><li><a href="protem.php"><b>CUTTING AND BEVELING MACHINE</b></a></li></li>
                 </ul>
               </li>
               <li class="dropdown">
                 <a href="mmm.php"><b>MAINTENANCE MACHINERY <br> MANAGEMENT</b><i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><li><a href="https://www.egamaster.com/en"><b>INDUSTRIAL HAND TOOLS</b></a></li></li>
-                  <li><li><a href="https://kentusa.com/"><b>MACHINE TOOLS (CNC,LATHE)</b></a></li></li>
-                  <li><li><a href="https://www.hilmanrollers.com/"><b>HEAVY LOAD MOVING SOLUTIONS</b></a></li></li>
-                  <li><li><a href="https://www.tavolgroup.com/"><b>HOIST AND CRANES</b></a></li></li>
-                  <li><li><a href="https://www.jdngroup.com/"><b>PNEUMATIC HOIST</b></a></li></li>
-                  <li><li><a href="http://www.jfcompressor.com/"><b>AIR COMPRESSOR</b></a></li></li>  
+                  <li><li><a href="ega.php"><b>INDUSTRIAL HAND TOOLS</b></a></li></li>
+                  <li><li><a href="kentusa.php"><b>MACHINE TOOLS (CNC,LATHE)</b></a></li></li>
+                  <li><li><a href="hilman.php"><b>HEAVY LOAD MOVING SOLUTIONS</b></a></li></li>
+                  <li><li><a href="tavol.php"><b>HOIST AND CRANES</b></a></li></li>
+                  <li><li><a href="JDN.php"><b>PNEUMATIC HOIST</b></a></li></li>
+                  <li><li><a href="JF.php"><b>AIR COMPRESSOR</b></a></li></li>  
                 </ul>
             </li>
               <li class="dropdown">
                 <a href="ec.php"><b>ENGINEERING CONTROLS HAZARD</BR></b><i class="bi bi-chevron-down toggle-dropdown"></i></a> 
               <ul>
-                  <li><li><a href="https://www.spilldoc.sg/"><b>SPILL CONTROL</b></a></li></li>
+                  <li><li><a href="Spilldoc.php"><b>SPILL CONTROL</b></a></li></li>
                   <li><li><a href="https://www.hiephoa.com.vn/en"><b>SPECIALIZED VEHICLE</b></a></li></li>
                   <li><li><a href="https://www.draeger.com/en-us_us/Home"><b>MEDICAL AND SAFETY SOLUTIONS</b></a></li></li>
                   <li><li><a href="https://www.tankersco.ph/about-us/"><b>OIL TANKERS</b></a></li></li>
