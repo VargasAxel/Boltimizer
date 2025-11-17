@@ -175,10 +175,20 @@ h6 {
 }
 
 .header .header-container {
- background-color: white;
-  border-radius: 50px;
-  padding: 5px 25px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.15);     /* Semi-transparent white */
+    border-radius: 50px;
+    padding: 5px 25px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(12px);                     /* The blur magic */
+    -webkit-backdrop-filter: blur(12px);             /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.2);      /* Subtle border for extra depth */
+    transition: all 0.3s ease;
+}
+
+.header .header-container:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
 }
 
 .scrolled .header .header-container {
@@ -500,6 +510,7 @@ h6 {
   color: #f4c542;
   transition: transform 0.3s ease, text-shadow 0.3s ease, color 0.3s ease;
 }
+
 
 .hover-pulse:hover i {
   animation: pulse 0.6s ease-in-out infinite;
