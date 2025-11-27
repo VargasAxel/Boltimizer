@@ -138,6 +138,28 @@
     <body>
         <?php include("header.php"); ?>
         <div class="fullscreen-video" data-aos="fade-in" data-aos-duration="1200" data-aos-easing="ease-in-out">
+            <!-- Background Video -->
+            <iframe
+                src="https://www.youtube.com/embed/vkEU18kDcUc?autoplay=1&mute=1&loop=1&playlist=vkEU18kDcUc&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&disablekb=1&fs=0&cc_load_policy=0&playsinline=1"
+                frameborder="0"
+                allow="autoplay; encrypted-media; picture-in-picture"
+                allowfullscreen
+                loading="lazy">
+            </iframe>
+
+            <!-- Ultra-Premium Floating Scroll Button -->
+            <div class="scroll-indicator">
+                <button class="scroll-btn" onclick="window.scrollTo({top: window.innerHeight, behavior: 'smooth'})" aria-label="Scroll down">
+                    <span class="scroll-text">Scroll Down</span>
+                    <div class="chevron">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <!-- <div class="fullscreen-video" data-aos="fade-in" data-aos-duration="1200" data-aos-easing="ease-in-out">
             <iframe
                 src="https://www.youtube.com/embed/vkEU18kDcUc?autoplay=1&mute=1&loop=1&playlist=vkEU18kDcUc&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&disablekb=1&fs=0"
                 frameborder="0"
@@ -145,8 +167,8 @@
                 allowfullscreen
                 loading="lazy">
             </iframe>
-        </div>
-        
+        </div> -->
+
         <div class="container-fluid p-5">
             <div class="row">
                 <div class="col-12 text-center mt-5 pt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
@@ -185,8 +207,8 @@
                         </div>
                     </div>
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #04733dff; padding-left: 10px;"><span style="font-size: 2rem;">Versatile</span><br>ROLLERS</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #04733dff; padding-left: 10px;"><span style="font-size: 2rem;">Versatile</span><br>ROLLERS</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             The FT Series offers the widest array of top configurations that are built right into the body of the roller. With six individual roller capacities, these steel chain action rollers are a perfect choice to move heavy equipment over ordinary concrete floors.
 
                         </p>
@@ -197,7 +219,8 @@
                                         DOCUMENTATION & RESOURCES
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
-                                        <li><a class="dropdown-item" href="https://www.canva.com/design/DAGvPyDPQQo/q9Eq-0iOKmFBIsz5PscE9A/view?utlId=ha0b7ee9605#3" target="_blank">CUT SHEET</a></li>
+                                        <li><a class="dropdown-item" href="https://www.hilmanrollers.com/rollers/" target="_blank">MORE INFO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.canva.com/design/DAGvPyDPQQo/q9Eq-0iOKmFBIsz5PscE9A/view?utm_content=DAGvPyDPQQo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0b7ee9605" target="_blank">BROCHURE</a></li>
 
                                     </ul>
                                 </div>
@@ -226,9 +249,9 @@
                                         DOCUMENTATION & RESOURCES
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/E24RGzYT0U-MyQI6S_rVjw/sY2NQWSwNUidzUHFGSTbkw/Original/MXT_cut_sheet.pdf" target="_blank">CUT SHEET</a></li>
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/PCasQKd8IUWn5P7a4IDyrg/9n9Q-EXHd0GwxAntlrM0Eg/Original/xlt_mxt_mxt_sa_operations_manual.pdf" target="_blank">MANUAL</a></li>
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/2c63Oq2uo0OMdalXck18pA/hdqBkb-eRU2CY5tUT_zsoA/Original/SDS_%20Safety%20Data%20Sheet%20for%20AW%20EX%2032%20Hydraulic%20Oil.pdf" target="_blank">HYDRAULIC OIL SDS</a></li>
+                                        <li><a class="dropdown-item" href="https://www.hilmanrollers.com/rollers/" target="_blank">MORE INFO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.canva.com/design/DAGvPyDPQQo/q9Eq-0iOKmFBIsz5PscE9A/view?utm_content=DAGvPyDPQQo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0b7ee9605" target="_blank">BROCHURE</a></li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -258,8 +281,8 @@
                         </div>
                     </div>
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #04733dff; padding-left: 10px;"><span style="font-size: 2rem;">Low Profile</span><br>ROLLERS</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #04733dff; padding-left: 10px;"><span style="font-size: 2rem;">Low Profile</span><br>ROLLERS</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             The ERS Series features a two-piece design with a base roller and a detachable swivel attachment. It is especially valuable for tasks requiring a roller with low clearance.
                         </p>
                         <div class="row col-md-12">
@@ -269,8 +292,8 @@
                                         DOCUMENTATION & RESOURCES
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/eqsdld4pKkGimSEeG30xPQ/a1-ooFJrjECD7cEBR7v1VA/Original/VERSA%20cut%20sheet.pdf" target="_blank">CUT SHEET</a></li>
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/2c63Oq2uo0OMdalXck18pA/hdqBkb-eRU2CY5tUT_zsoA/Original/SDS_%20Safety%20Data%20Sheet%20for%20AW%20EX%2032%20Hydraulic%20Oil.pdf" target="_blank">HYDRAULIC OIL SDS</a></li>
+                                        <li><a class="dropdown-item" href="https://www.hilmanrollers.com/rollers/" target="_blank">MORE INFO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.canva.com/design/DAGvPyDPQQo/q9Eq-0iOKmFBIsz5PscE9A/view?utm_content=DAGvPyDPQQo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0b7ee9605" target="_blank">BROCHURE</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -298,9 +321,8 @@
                                         DOCUMENTATION & RESOURCES
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/GhQ1Cv-MzUSfaBfmMNuE0w/Ykvn3QOA1ku_NJvNi9V-hg/Original/lithium_series_ii_extended_cut_sheet.pdf" target="_blank">CUT SHEET</a></li>
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/6Z1My792BEOhOitDT3FBHA/VhHOoUW9oE6PCTrRDRfeSw/Original/lithium%20series%20ii%208000%20basic%20operations%20manual.pdf" target="_blank">MANUAL</a></li>
-                                        <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=4cYrxIfNaag&list=PLcL7JPmmOZyABQviP5FyYdnQwsYjiDiWO" target="_blank">VIDEO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.hilmanrollers.com/rollers/" target="_blank">MORE INFO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.canva.com/design/DAGvPyDPQQo/q9Eq-0iOKmFBIsz5PscE9A/view?utm_content=DAGvPyDPQQo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0b7ee9605" target="_blank">BROCHURE</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -334,8 +356,8 @@
                         </div>
                     </div>
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #04733dff; padding-left: 10px;"><span style="font-size: 2rem;">Omni-Skates</span><br>DOLLIES</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #04733dff; padding-left: 10px;"><span style="font-size: 2rem;">Omni-Skates</span><br>DOLLIES</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             Move heavy loads in tight spaces and around sharp corners. 360-degree maneuverability is achieved with this extremely versatile, reliable and rugged design.
 
                         </p>
@@ -346,9 +368,8 @@
                                         DOCUMENTATION & RESOURCES
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/twluw87taE-7pr7jfxQKLw/JCHY-AELyUm4u24ye3ZvDg/Original/STEALTH%20extended%20cut%20sheet%20%28PDF%29.pdf" target="_blank">CUT SHEET</a></li>
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/eYpRBniY6UuUVbuLW6fPYA/UB_3M9LRl0CG_L03HsvBeA/Original/STEALTH%20basic%20operations%20manual.pdf" target="_blank">MANUAL</a></li>
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/2c63Oq2uo0OMdalXck18pA/hdqBkb-eRU2CY5tUT_zsoA/Original/SDS_%20Safety%20Data%20Sheet%20for%20AW%20EX%2032%20Hydraulic%20Oil.pdf" target="_blank">HYDRAULIC OIL SDS</a></li>
+                                        <li><a class="dropdown-item" href="https://www.hilmanrollers.com/dollies/" target="_blank">MORE INFO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.canva.com/design/DAGvPyDPQQo/q9Eq-0iOKmFBIsz5PscE9A/view?utm_content=DAGvPyDPQQo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0b7ee9605" target="_blank">BROCHURE</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -377,9 +398,8 @@
                                         DOCUMENTATION & RESOURCES
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/uUIIMxLOhECbnREwFGsHjA/e6HcnX3ZC0Ku5XQBdlL-nQ/Original/XLCT%20cut%20sheet.pdf" target="_blank">CUT SHEET</a></li>
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/ggXkMS0qokWGqTB_iHqXDg/w34KRdc8uES4frmG2AiCjA/Original/xlct_operations_manual.pdf" target="_blank">MANUAL</a></li>
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/2c63Oq2uo0OMdalXck18pA/hdqBkb-eRU2CY5tUT_zsoA/Original/SDS_%20Safety%20Data%20Sheet%20for%20AW%20EX%2032%20Hydraulic%20Oil.pdf" target="_blank">HYDRAULIC OIL SDS</a></li>
+                                        <li><a class="dropdown-item" href="https://www.hilmanrollers.com/dollies/" target="_blank">MORE INFO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.canva.com/design/DAGvPyDPQQo/q9Eq-0iOKmFBIsz5PscE9A/view?utm_content=DAGvPyDPQQo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0b7ee9605" target="_blank">BROCHURE</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -409,8 +429,8 @@
                         </div>
                     </div>
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #04733dff; padding-left: 10px;"><span style="font-size: 2rem;">3 Point Machine Skates</span><br>DOLLIES</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #04733dff; padding-left: 10px;"><span style="font-size: 2rem;">3 Point Machine Skates</span><br>DOLLIES</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             The Tri-Glide machinery moving dollies provide a stable, efficient solution for moving heavy loads over finished floors. It is designed with a large footprint to spread the weight of the load over a greater area.
                         </p>
                         <div class="row col-md-12">
@@ -420,9 +440,8 @@
                                         DOCUMENTATION & RESOURCES
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/h54Gp8r_eUiYcUno6LACkA/nOrfMHBuhUW14EqKnSGfBA/Original/lion_gun_dual_speed_cut_sheet.pdf" target="_blank">CUT SHEET</a></li>
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/uikb-uWo_EyiFFEwZFh-4Q/UiZhzll_MUixx1VNE4aI0w/Original/lion_gun_operations_manual.pdf" target="_blank">MANUAL</a></li>
-                                        <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=kU38ComKAPk&list=PLcL7JPmmOZyAY7fJ9z3jwacGGdPapD2Tu" target="_blank">VIDEO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.hilmanrollers.com/dollies/" target="_blank">MORE INFO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.canva.com/design/DAGvPyDPQQo/q9Eq-0iOKmFBIsz5PscE9A/view?utm_content=DAGvPyDPQQo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0b7ee9605" target="_blank">BROCHURE</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -457,8 +476,8 @@
                                         DOCUMENTATION & RESOURCES
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/3bGTNR-trEKpoWucwVxJ7Q/zXXrw_rxqE62uXipGwTMDw/Original/jgun_single_speed_cut_sheet.pdf" target="_blank">CUT SHEET</a></li>
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/jyPUVFLtMU2olcA0yLW0Vg/jsGO_eqASEaAUP1gy0-4FA/Original/jgun_single_dual_speed_operations_manual.pdf" target="_blank">MANUAL</a></li>
+                                        <li><a class="dropdown-item" href="https://www.hilmanrollers.com/powered-systems/" target="_blank">MORE INFO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.canva.com/design/DAGvPyDPQQo/q9Eq-0iOKmFBIsz5PscE9A/view?utm_content=DAGvPyDPQQo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0b7ee9605" target="_blank">BROCHURE</a></li>
 
                                     </ul>
                                 </div>
@@ -489,8 +508,8 @@
                         </div>
                     </div>
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #04733dff; padding-left: 10px;"><span style="font-size: 2rem;">TK-EVO</span><br>Powered</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #04733dff; padding-left: 10px;"><span style="font-size: 2rem;">TK-EVO</span><br>Powered</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             The Hilman TK-EVO is a battery-powered machinery-moving skate that revolutionizes heavy load transport with unparalleled precision, safety, and efficiency, all guided via remote control.
 
                         </p>
@@ -501,9 +520,8 @@
                                         DOCUMENTATION & RESOURCES
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/acd8sFqcrE6K_IgJ147iXQ/TDbzZLC8VkGFmbyn6HAJfg/Original/jgun_digital_ss_cut_sheet.pdf" target="_blank">CUT SHEET</a></li>
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/-UNfE-Scqk-ppZUTRopYqQ/WC17YL-EbEyljE7trBnlYQ/Original/jgun_digital_ss_operations_manual.pdf" target="_blank">MANUAL</a></li>
-                                        <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=nVkKFg1yMD8&list=PLcL7JPmmOZyD7P-9cwR3kdccxKA9uXDRL" target="_blank">VIDEO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.hilmanrollers.com/powered-systems/" target="_blank">MORE INFO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.canva.com/design/DAGvPyDPQQo/q9Eq-0iOKmFBIsz5PscE9A/view?utm_content=DAGvPyDPQQo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0b7ee9605" target="_blank">BROCHURE</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -533,8 +551,8 @@
                                         DOCUMENTATION & RESOURCES
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/xHh_5OjnZUO0kjdhRiOY_g/zIdOg9vsqUiFNeKB3dHmmg/Original/jgun_dual_speed_cut_sheet_102323_EMAIL.pdf" target="_blank">CUT SHEET</a></li>
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/jyPUVFLtMU2olcA0yLW0Vg/jsGO_eqASEaAUP1gy0-4FA/Original/jgun_single_dual_speed_operations_manual.pdf" target="_blank">MANUAL</a></li>
+                                        <li><a class="dropdown-item" href="https://www.hilmanrollers.com/powered-systems/" target="_blank">MORE INFO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.canva.com/design/DAGvPyDPQQo/q9Eq-0iOKmFBIsz5PscE9A/view?utm_content=DAGvPyDPQQo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0b7ee9605" target="_blank">BROCHURE</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -564,8 +582,8 @@
                         </div>
                     </div>
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #04733dff; padding-left: 10px;"><span style="font-size: 2rem;">Motorized Roller</span><br>Powered</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #04733dff; padding-left: 10px;"><span style="font-size: 2rem;">Motorized Roller</span><br>Powered</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             Repetitive movement – ideal for permanent movement of heavy objects.
                         </p>
                         <div class="row col-md-12">
@@ -575,7 +593,8 @@
                                         DOCUMENTATION & RESOURCES
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/Ol3Cm7S62E-1PzUPgFaS4Q/kl5zB7OdZUGhw286TgU3LQ/Original/Impact_Wrench_cut_sheet__EMAIL_072623.pdf" target="_blank">CUT SHEET</a></li>
+                                        <li><a class="dropdown-item" href="https://www.hilmanrollers.com/powered-systems/" target="_blank">MORE INFO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.canva.com/design/DAGvPyDPQQo/q9Eq-0iOKmFBIsz5PscE9A/view?utm_content=DAGvPyDPQQo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0b7ee9605" target="_blank">BROCHURE</a></li>
 
                                     </ul>
                                 </div>
@@ -606,9 +625,8 @@
                                         DOCUMENTATION & RESOURCES
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/NJdFS5GQcUmsbCQ-E_c4iA/na598XKPeEOXbCDNxWmMZw/Original/LION%20GUN%20cut%20sheet.pdf" target="_blank">CUT SHEET</a></li>
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/uikb-uWo_EyiFFEwZFh-4Q/UiZhzll_MUixx1VNE4aI0w/Original/lion_gun_operations_manual.pdf" target="_blank">MANUAL</a></li>
-                                        <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=kU38ComKAPk&list=PLcL7JPmmOZyAY7fJ9z3jwacGGdPapD2Tu" target="_blank">VIDEO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.hilmanrollers.com/toe-jacks/" target="_blank">MORE INFO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.canva.com/design/DAGvPyDPQQo/q9Eq-0iOKmFBIsz5PscE9A/view?utm_content=DAGvPyDPQQo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0b7ee9605" target="_blank">BROCHURE</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -639,8 +657,8 @@
                         </div>
                     </div>
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #04733dff; padding-left: 10px;"><span style="font-size: 2rem;">Deluxe</span><br>Toe Jacks</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #04733dff; padding-left: 10px;"><span style="font-size: 2rem;">Deluxe</span><br>Toe Jacks</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             Hilman Deluxe Hydraulic Toe Jacks feature a high quality lifting toe that can be adjusted to several different heights, to accommodate different lift points.
                         </p>
                         <div class="row col-md-12">
@@ -650,9 +668,8 @@
                                         DOCUMENTATION & RESOURCES
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/GijBLCs4u02ne29Twla-PQ/U6Oo2E4GlkWes-d0DqtK3A/Original/lion_gun_x_cut_sheet.pdf" target="_blank">CUT SHEET</a></li>
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/7MTo7kj-ZEy08VigCo-NGw/1GTvc_kxm02AfVegia5OeA/Original/lion_gun_x_operations_manual.pdf" target="_blank">MANUAL</a></li>
-                                        <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=kU38ComKAPk&list=PLcL7JPmmOZyAY7fJ9z3jwacGGdPapD2Tu" target="_blank">VIDEO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.hilmanrollers.com/toe-jacks/" target="_blank">MORE INFO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.canva.com/design/DAGvPyDPQQo/q9Eq-0iOKmFBIsz5PscE9A/view?utm_content=DAGvPyDPQQo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0b7ee9605" target="_blank">BROCHURE</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -682,9 +699,8 @@
                                         DOCUMENTATION & RESOURCES
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/S1rjFEw1F02cxvrsyyIBgA/gNkoGrJsTUqVDiCM9-FbzA/Original/EDGE%20S%20cut%20sheet.pdf" target="_blank">CUT SHEET</a></li>
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/nPsFnPhlLECJUJ5d-COtpg/A8cXUdc9IEy-zT2wbqKFag/Original/edge_operations_manual.pdf" target="_blank">MANUAL</a></li>
-                                        <li><a class="dropdown-item" href="https://cdn.mediavalet.com/usva/hytorc/2c63Oq2uo0OMdalXck18pA/hdqBkb-eRU2CY5tUT_zsoA/Original/SDS_%20Safety%20Data%20Sheet%20for%20AW%20EX%2032%20Hydraulic%20Oil.pdf" target="_blank">HYDRAULIC OIL SDS</a></li>
+                                        <li><a class="dropdown-item" href="https://www.hilmanrollers.com/toe-jacks/" target="_blank">MORE INFO</a></li>
+                                        <li><a class="dropdown-item" href="https://www.canva.com/design/DAGvPyDPQQo/q9Eq-0iOKmFBIsz5PscE9A/view?utm_content=DAGvPyDPQQo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0b7ee9605" target="_blank">BROCHURE</a></li>
                                     </ul>
                                 </div>
                             </div>

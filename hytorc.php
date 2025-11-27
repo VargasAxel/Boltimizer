@@ -138,13 +138,26 @@
     <body>
         <?php include("header.php"); ?>
         <div class="fullscreen-video" data-aos="fade-in" data-aos-duration="1200" data-aos-easing="ease-in-out">
+            <!-- Background Video -->
             <iframe
-                src="https://www.youtube.com/embed/FPJXMHOpLTw?autoplay=1&mute=1&loop=1&playlist=FPJXMHOpLTw"
+                src="https://www.youtube.com/embed/FPJXMHOpLTw?autoplay=1&mute=1&loop=1&playlist=FPJXMHOpLTw&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&disablekb=1&fs=0&cc_load_policy=0&playsinline=1"
                 frameborder="0"
-                allow="autoplay; encrypted-media"
+                allow="autoplay; encrypted-media; picture-in-picture"
                 allowfullscreen
                 loading="lazy">
             </iframe>
+
+            <!-- Ultra-Premium Floating Scroll Button -->
+            <div class="scroll-indicator">
+                <button class="scroll-btn" onclick="window.scrollTo({top: window.innerHeight, behavior: 'smooth'})" aria-label="Scroll down">
+                    <span class="scroll-text">Scroll Down</span>
+                    <div class="chevron">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                        </svg>
+                    </div>
+                </button>
+            </div>
         </div>
         <div class="container-fluid p-5">
             <div class="row">
@@ -214,8 +227,8 @@
                 </div>
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">MXT</span><br> Hydraulic Torque Wrench</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px; "><span style="font-size: 2rem;">MXT</span><br> Hydraulic Torque Wrench</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             The MXT Hydraulic Torque Wrench, known as the HYTORC Blue Tool, is built for tight spaces with its 360° rotatable and 120° foldable Uniswivel connection. Trusted for over 30 years, it delivers proven durability and reliable performance in every torque application.
 
                         </p>
@@ -286,8 +299,8 @@
                 </div>
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">STEALTH</span><br>Hydraulic Torque Wrench</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">STEALTH</span><br>Hydraulic Torque Wrench</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             The STEALTH Hydraulic Torque Wrench is built for low-clearance bolting, fitting where others can’t. Its 360°/180° Uniswivel ensures safe hose positioning, while the optional tool retainer allows hands-free operation. Reliable and precise, STEALTH handles tough, hard-to-reach jobs with ease.
 
                         </p>
@@ -359,9 +372,9 @@
                 </div>
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">EDGE S </span><br>Hydraulic Torque Wrench</h3>
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">EDGE S </span><br>Hydraulic Torque Wrench</h3>
 
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             The EDGE S Hydraulic Torque Wrench is built for ease and reliability. Its removable square drive allows quick switching between modes, while the adjustable safety handle ensures comfort. With only three moving parts, it minimizes maintenance, and the 360°x180° Uniswivel keeps hoses clear for safer, simpler bolting.
 
                         </p>
@@ -439,8 +452,8 @@
                 </div>
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">jGun DIGITAL SINGLE SPEED</span><br>Pneumatic Torque Tool</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">jGun DIGITAL SINGLE SPEED</span><br>Pneumatic Torque Tool</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             The jGun® DIGITAL Pneumatic Torque Tool delivers precision and ease with its twist adjustment and digital torque display. A built-in silencer reduces noise, while its ergonomic, low-vibration design ensures comfort and safety. Built with a corrosion-resistant motor, it’s reliable even in the toughest environments.
 
                         </p>
@@ -512,8 +525,8 @@
                 </div>
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">jGun DUAL SPEED</span><br>Pneumatic Torque Tool</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">jGun DUAL SPEED</span><br>Pneumatic Torque Tool</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             The jGun® DUAL SPEED Pneumatic Torque Tool handles rundown, final torque, and breakout with ease using its quick-shift collar. Offering a wide torque range and repeatable accuracy, it reduces vibration for safer, more comfortable use. Paired with an FRL, it delivers consistent performance for demanding bolting jobs.
                         </p>
                         <div class="row col-md-12">
@@ -587,8 +600,8 @@
                 </div>
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">LION GUN </span><br> Electric Torque Tool</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">LION GUN </span><br> Electric Torque Tool</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             The LION GUN Electric Torque Tool offers portable, durable performance with accurate, repeatable torque. Powered by an 18V lithium-ion battery, it ensures long-lasting reliability while reducing vibration injuries. Easy to use, it enhances safety, quality control, and efficiency for every job.
                         </p>
                         <div class="row col-md-12">
@@ -659,8 +672,8 @@
                 </div>
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">LION GUN X</span><br> Electric Torque Tool</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">LION GUN X</span><br> Electric Torque Tool</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             The LION GUN X delivers repeatable torque with ±5% accuracy in a portable, cord-free design. Powered by a long-lasting 36V rechargeable battery, it combines strength with convenience. Featuring a digital interface, data capture for quality control, and low vibration, it ensures safe, efficient bolting every time.
                         </p>
                         <div class="row col-md-12">
@@ -736,8 +749,8 @@
                 </div>
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">TRUE-LOCK WASHER</span></h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">TRUE-LOCK WASHER</span></h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             The HYTORC TRUE-LOCK Washer is designed to keep your bolts tight, even under dynamic loads. Its built-in locking feature minimizes loosening, giving you confidence that your connections will stay secure. With a strategically placed ridge band, the TRUE-LOCK Washer locks fasteners in place without requiring special equipment, making installation simple and reliable.
                         </p>
                         <div class="row col-md-12">
@@ -806,8 +819,8 @@
                 </div>
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">GALL-FREE NUT</span></h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">GALL-FREE NUT</span></h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             This innovative nut eliminates galling (metal transfer) in unlubricated fasteners, ensuring smoother applications. The Gall-Free Nut has a ring on the non-loading surface to indicate the correct side, making installation easier, and it's compatible with standard bolt threads and available in common hex sizes. The Gall-Free Nut meets ASTM standards, offering versatility and reliability in various industries and environments, even under challenging conditions.
                         </p>
                         <div class="row col-md-12">
@@ -878,8 +891,8 @@
                 </div>
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">HYTORC NUT</span></h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">HYTORC NUT</span></h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             The HYTORC Nut transforms your bolting tasks with its user-friendly, reaction-free design that eliminates the need for extra tools like a backup wrench. It delivers top-tier bolt tension accuracy and reliability, ensuring superior joint integrity and preventing thread damage. The advanced 3-piece fastener applies pure tensile load to your bolts, avoiding thread damage and maintaining accuracy without any load loss.
                         </p>
                         <div class="row col-md-12">
@@ -954,14 +967,14 @@
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
                     <div class="col-md-6 d-flex mt-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
                         <div class="custom-img">
-                            <img src="assets/img/Hytorc/tensioning pumps/AXEL ASSETS FOR WEBSITE/Pneumatic Tensioning Pump.png"
+                            <img src="assets\img\Hytorc\AXEL ASSETS FOR WEBSITE (1)\Pneumatic Tensioning Pump.png"
                                 alt="XLCT Hydraulic Torque Wrench"
                                 class="img-fluid rounded">
                         </div>
                     </div>
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">PNEUMATIC </span><br>Tensioning Pump</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">PNEUMATIC </span><br>Tensioning Pump</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             Designed to make your job easier with options for standard and high flow rates to match each project's needs. Each pump comes with an in-line filter, regulator, and lubricator assembly (FRL), ensuring reliable performance every time. </p>
                         <div class="row col-md-12">
                             <div class="col-md-6">
@@ -1032,8 +1045,8 @@
                         </div>
                     </div>
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">SUBSEA </span><br>Pneumatic Tensioning Pump</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">SUBSEA </span><br>Pneumatic Tensioning Pump</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             Designed to simplify your underwater operations. Built for the harsh subsea environment, it delivers the high pressure you need for secure, leak-free tensioning, ensuring your work is done right the first time. Its remote control capabilities boost safety and efficiency.
                         <div class="row col-md-12">
                             <div class="col-md-6">
@@ -1103,8 +1116,8 @@
                         </div>
                     </div>
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">HY-TWIN 230 </span><br>Electric Hydraulic Pump</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">HY-TWIN 230 </span><br>Electric Hydraulic Pump</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             The powerful HY-TWIN 230 Electric Hydraulic Pump is designed to make your toughest bolting jobs easier and faster. Boasting a high flow rate, its dual motors ensure consistent power for your torque tools, even under heavy load. Featuring built-in casters, the HY-TWIN 230 is easy to transport. Built to last in the harshest conditions, it has long-term reliability, giving you peace of mind on every project. Plus, its user-friendly design helps you stay productive and focused on getting the job done. </p>
                         <div class="row col-md-12">
                             <div class="col-md-6">
@@ -1175,8 +1188,8 @@
                         </div>
                     </div>
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">JETPRO S</span><br>Electric Hydraulic Pump</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">JETPRO S</span><br>Electric Hydraulic Pump</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             The JETPRO S Electric Hydraulic Pump offers a perfect blend of portability, ease of use, quick set up, and powerful performance. Its compact 2-stage design ensures that it fits where you need it to, while the straightforward controls allow you to get up and running with minimal effort. Plus, its durable construction means you can rely on it for the long haul, knowing that safety features are in place to protect both you and your equipment.
                         <div class="row col-md-12">
                             <div class="col-md-6">
@@ -1246,8 +1259,8 @@
                         </div>
                     </div>
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">HY-AIR</span><br>Pneumatic Hydraulic Pump</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">HY-AIR</span><br>Pneumatic Hydraulic Pump</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             The HY-AIR Pneumatic Hydraulic Pump is your ultimate solution for safe and efficient bolting in hazardous environments. Its intrinsically safe design means no sparks, ensuring maximum safety. The built-in FRL (Filter, Regulator, Lubricator) guarantees optimal air quality and pressure, extending the pump's life and performance. With user-friendly controls, adjusting pump pressure is effortless, minimizing errors and boosting efficiency.
                         <div class="row col-md-12">
                             <div class="col-md-6">
@@ -1314,8 +1327,8 @@
                 </div>
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">DIRECT FIT</span><br>Tensioners</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">DIRECT FIT</span><br>Tensioners</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             Our Direct Fit Tensioners simplify bolting with a direct-fit design that eliminates adapters for faster setup. Compact and versatile, they fit tight spaces and are available in 1-piece or multi-part designs. Built for precision, ease of use, and reduced maintenance, they deliver reliable performance across demanding applications.
                         </p>
                         <div class="row col-md-12">
@@ -1382,8 +1395,8 @@
                 </div>
                 <div class="row align-items-center " style="background-color:lightgrey;margin-left: 0; margin-right: 0; ">
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">WIND MULTI-STAGE</span><br>Tensioners</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">WIND MULTI-STAGE</span><br>Tensioners</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             Our slim Wind Multi-Stage Tensioners are designed for wind turbines with limited radial clearance. Compact yet powerful, they handle higher loads with ease, delivering reliable performance in tough conditions. Ideal for confined spaces, they ensure efficient bolting solutions, with manufacturer-specific designs available for Acciona, Clipper, Gamesa, Mitsubishi, Siemens, Vestas, and more.
                         </p>
                         <div class="row col-md-12">
@@ -1449,8 +1462,8 @@
                 </div>
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">SUBSEA</span><br>Tensioners</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">SUBSEA</span><br>Tensioners</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             Our Subsea Hydraulic Tensioners are engineered for reliability in the toughest underwater environments. With a durable 1-piece body, 30mm piston stroke, and visible stroke indicator, they ensure safety and efficiency. Available with solid or split nuts, they’re designed for quick setup, smooth operation, and dependable performance in challenging subsea conditions.
                         </p>
                         <div class="row col-md-12">
@@ -1519,8 +1532,8 @@
                 </div>
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">WIND SINGLE STAGE</span><br>Tensioners</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">WIND SINGLE STAGE</span><br>Tensioners</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             Our Wind Single-Stage hydraulic tensioners are designed for bolting applications with limited overhead clearance, making them perfect for wind turbine maintenance. These compact, powerful tools offer uncompromising performance in challenging environments. Built to handle higher loads, they provide reliable performance for demanding wind projects. Manufacturer-specific designs are available.
                         </p>
                         <div class="row col-md-12">
@@ -1592,8 +1605,8 @@
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
 
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">CRAB NUT FIXTURE</span><br>Accessories</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">CRAB NUT FIXTURE</span><br>Accessories</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             The Crab Nut Reaction Fixture revolutionizes high-torque bolting with its U-shaped adjustable arm, absorbing reaction forces between adjacent bolts to eliminate side loads and pinch points for unmatched safety and precision. Perfect for rail, marine, and industrial maintenance teams, it fits standard hex nuts on M20-M36 bolts and complies with ISO 6789 torque standards. </p>
                         <div class="row col-md-12">
                             <div class="col-md-6">
@@ -1660,8 +1673,8 @@
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
 
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">TRACK PAD FIXTURE</span><br>Accessories</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">TRACK PAD FIXTURE</span><br>Accessories</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             Track Pad Fixture revolutionizes multi-bolt torquing with its adjustable sliding base, absorbing reaction forces on linear bolt tracks to eliminate side loads and pinch points for superior safety and precision. Perfect for wind turbine, pipeline, and structural steel teams, it fits 3"-12" track spacings on M20-M64 bolts and complies with ASME PCC-1 standards.
                         <div class="row col-md-12">
                             <div class="col-md-6">
@@ -1728,8 +1741,8 @@
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
 
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">HYTORC WASHER DRIVER</span><br>Accessories</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">HYTORC WASHER DRIVER</span><br>Accessories</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             The HYTORC Washer Driver transforms bolting efficiency with its patented dual-socket system, where the outer socket grips the knurled washer edge for reaction-free torquing, and the inner socket drives the nut, eliminating pinch points and side loads for superior safety and accuracy. Ideal for pipeline, wind turbine, and structural steel applications, it fits M12-M100 bolts and meets ASME PCC-1 standards.
                         </p>
                         <div class="row col-md-12">
@@ -1798,8 +1811,8 @@
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
 
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">ECO LINE SOCKETS</span><br>Accessories</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">ECO LINE SOCKETS</span><br>Accessories</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             Eco Line Sockets redefine sustainable bolting with their eco-friendly silver-hued coating, crafted via an environmentally conscious process that surpasses traditional black oxide in durability and visibility, while meeting ISO 9001 and 14001 standards for quality and environmental management. Ideal for pipeline, wind turbine, and industrial maintenance crews, they fit 1/2" drive tools for M10-M36 bolts and ensure chamfered lead-ins for seamless attachment without slippage or corrosion.
                         <div class="row col-md-12">
                             <div class="col-md-6">
@@ -1866,8 +1879,8 @@
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
 
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">BACKUP WRENCHES</span><br>Accessories</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">BACKUP WRENCHES</span><br>Accessories</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             Backup Wrench revolutionizes bolting stability with its innovative self-contained reaction system, securely locking onto adjacent fasteners to prevent counter-rotation without additional tools, eliminating side loads and enhancing operator safety. Perfect for wind turbine, pipeline, and heavy machinery maintenance teams, it fits M16-M64 bolts and complies with ASME PCC-1 standards.
                         <div class="row col-md-12">
                             <div class="col-md-6">
@@ -1934,8 +1947,8 @@
                 <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
 
                     <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">FILTER, REGULATOR, AND LUBRICATOR</span><br>Accessories</h3>
-                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">FILTER, REGULATOR, AND LUBRICATOR</span><br>Accessories</h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             Filter, Regulator, and Lubricator (FRL) unit redefines pneumatic performance with its integrated three-stage system, purifying compressed air by removing contaminants, stabilizing pressure, and injecting precise oil mist to extend tool life and ensure consistent torque output. Ideal for pipeline, wind turbine, and industrial bolting crews, it features 1/4" NPT ports with 90 CFM capacity and aligns with ISO 9001 standards for reliable air preparation. </p>
                         <div class="row col-md-12">
                             <div class="col-md-6">
@@ -2076,12 +2089,20 @@
             </div>
         </div>
         <div class="container text-center py-4">
-            <div class="social-links mb-2 " data-aos="fade-up" data-aos-delay="300">
-                <a href="https://www.facebook.com/boltimizercorp" target="_blank"><i class="bi bi-facebook"></i></a>
-                <a href="https://www.tiktok.com/@innoverse24?is_from_webapp=1&sender_device=pc" target="_blank"><i class="bi bi-tiktok"></i></a>
-                <a href="https://www.linkedin.com/company/boltimizer-corp/posts/?feedView=all" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <div class="social-links mb-2" data-aos="fade-up" data-aos-delay="300">
+                <a href="https://www.facebook.com/boltimizercorp" target="_blank" class="social-link">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://www.tiktok.com/@innoverse24?is_from_webapp=1&sender_device=pc" target="_blank" class="social-link">
+                    <i class="bi bi-tiktok"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/boltimizer-corp/posts/?feedView=all" target="_blank" class="social-link">
+                    <i class="bi bi-linkedin"></i>
+                </a>
             </div>
-            <p class="text-muted" data-aos="fade-up" data-aos-delay="300">&copy; <?php echo date('Y'); ?> Boltimizer Corporation. All rights reserved.</p>
+            <p class="text-muted" data-aos="fade-up" data-aos-delay="300" style="font-size:large;">
+                © <?php echo date('Y'); ?> Boltimizer Corporation. All rights reserved.
+            </p>
         </div>
         <?php include("footer.php"); ?>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>

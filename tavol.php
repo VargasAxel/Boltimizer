@@ -1,242 +1,517 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/css/tavol.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Tavol</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="assets/css/tavol.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title>TAVOL</title>
+        <style>
+            /* Custom CSS for responsiveness */
+            body {
+                overflow-x: hidden;
 
-<body>
+            }
 
-    <?php include("header.php"); ?>
-    <div class="container d-flex text-justify mt-5 py-5">
-        <div class="row mt-5 py-5">
-            <div class="col-md-6 ">
-                <div class="container-header text-center" style="background: linear-gradient(135deg, #FFD700, #FFA500, #FF8C00); padding:3vh; border-radius:10px;">
-                    <h1 style="font-size: 3.8rem; color:#fff; font-weight:700;">
-                        <span style="color: #FFFF66;">TAVOL</span> <br>
-                        CRANES, LIFTING & MATERIAL HANDLING SOLUTIONS
-                    </h1>
-                </div>
+            .fullscreen-video {
+                position: relative;
+                width: 100%;
+                padding-top: 56.25%;
+                /* 16:9 Aspect Ratio */
+                overflow: hidden;
+            }
 
+            .fullscreen-video iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
 
-            </div>
-            <div class="col-md-6">
-                <div class="video-frame" style="height: 500px; overflow: hidden;">
-                    <iframe
-                        width="100%" height="100%"
-                        src="https://www.youtube.com/embed/-NYltvIb9f8?autoplay=1&mute=1&loop=1&playlist=-NYltvIb9f8"
-                        frameborder="0"
-                        allow="autoplay; encrypted-media"
-                        allowfullscreen
-                        loading="lazy">
-                    </iframe>
-                </div>
-            </div>
-            <div class="core row mt-5 py-3 text-center">
-                <div class="core-section1 col-md-4">
-                    <h1 class="core-headers1">Lifting <br> Strength <br> and Power</h1>
-                </div>
+            .custom-img {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+            }
 
-                <div class="core-section2 col-md-4">
-                    <h1 class="core-headers1">Technology and Innovation</h1>
-                </div>
+            .custom-img img {
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+                max-height: 500px;
+                /* Limit max height for larger screens */
+            }
 
-                <div class="core-section3 col-md-4">
-                    <h1 class="core-headers1">Safety <br> First <br> Assurance</h1>
-                </div>
+            h1,
+            h3 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: calc(1.5rem + 2vw);
+                /* Responsive font sizing */
+            }
 
-            </div>
-            <div class="row mt-5 text-justify">
-                <div class="col-md-6">
-                    <h1>About Us</h1>
-                    <p class="about-text">
-                        At Tavol, we are dedicated to providing world-class lifting solutions through the design,
-                        manufacturing, and supply of high-quality cranes, hoists, and lifting equipment. With a
-                        reputation built on strength, reliability, and innovation, Tavol products are trusted in
-                        industries such as construction, logistics, manufacturing, energy, and warehousing worldwide.
-                    </p>
+            p {
+                font-size: calc(.6rem + 1vw);
+                line-height: 1.6;
+            }
 
-                    <p class="about-text">
-                        Our mission is to deliver safe, efficient, and durable lifting equipment that meets the
-                        highest international standards. Beyond products, Tavol is a solutions partner—offering
-                        customized engineering, technical expertise, and professional after-sales support tailored
-                        to the unique requirements of every client.
-                    </p>
+            .see-more {
+                color: #b71c1c;
+                text-decoration: none;
+                font-weight: 600;
+            }
 
-                    <p class="about-text">
-                        With years of proven experience and a commitment to continuous innovation, Tavol combines
-                        advanced technology with precision engineering to ensure maximum performance and safety.
-                        Whether for heavy-duty lifting, smart handling systems, or specialized industrial solutions,
-                        Tavol is your trusted partner in achieving operational excellence and long-term success.
-                    </p>
+            .see-more:hover {
+                text-decoration: underline;
+            }
 
-                </div>
+            .social-links a {
+                font-size: calc(1.2rem + 1vw);
+                margin: 0 10px;
+                color: #333;
+            }
 
-                <div class="col-md-6">
-                    <div class="video-frame" style="height: 450px; overflow: hidden;">
-                        <iframe
-                            width="100%" height="100%"
-                            src="https://www.youtube.com/embed/nGYDllxdWFI?autoplay=1&mute=1&loop=1&playlist=nGYDllxdWFI"
-                            frameborder="0"
-                            allow="autoplay; encrypted-media"
-                            allowfullscreen
-                            loading="lazy">
-                        </iframe>
+            .social-links a:hover {
+                color: #b71c1c;
+            }
+
+            /* Responsive adjustments */
+            @media (max-width: 767.98px) {
+                .container-fluid {
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+
+                h1 {
+                    font-size: calc(1.2rem + 2vw);
+                }
+
+                h3 {
+                    font-size: calc(1.1rem + 1.5vw);
+                }
+
+                p {
+                    font-size: calc(0.9rem + 1vw);
+                    margin: 0 5vw;
+                }
+
+                .custom-img img {
+                    max-height: 300px;
+                    /* Smaller images on mobile */
+                }
+
+                .row>div {
+                    margin-bottom: 20px;
+                }
+            }
+
+            @media (max-width: 575.98px) {
+                h1 {
+                    font-size: calc(1rem + 2vw);
+                }
+
+                h3 {
+                    font-size: calc(1rem + 1.2vw);
+                }
+
+                p {
+                    font-size: calc(0.8rem + 1vw);
+                }
+
+                .custom-img img {
+                    max-height: 250px;
+                }
+
+                .social-links a {
+                    font-size: calc(1rem + 1vw);
+                    margin: 0 8px;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <?php include("header.php"); ?>
+        <div class="fullscreen-video" data-aos="fade-in" data-aos-duration="1200" data-aos-easing="ease-in-out">
+            <!-- Background Video -->
+            <iframe
+                src="https://www.youtube.com/embed/nGYDllxdWFI?autoplay=1&mute=1&loop=1&playlist=nGYDllxdWFI&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&disablekb=1&fs=0&cc_load_policy=0&playsinline=1"
+                frameborder="0"
+                allow="autoplay; encrypted-media; picture-in-picture"
+                allowfullscreen
+                loading="lazy">
+            </iframe>
+
+            <!-- Ultra-Premium Floating Scroll Button -->
+            <div class="scroll-indicator">
+                <button class="scroll-btn" onclick="window.scrollTo({top: window.innerHeight, behavior: 'smooth'})" aria-label="Scroll down">
+                    <span class="scroll-text">Scroll Down</span>
+                    <div class="chevron">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                        </svg>
                     </div>
-                </div>
-
+                </button>
             </div>
-            <div class="row text-justify mt-5">
-                <div class="col-md-6 d-flex">
-                    <div class="col-md-6">
-                        <div class="video-frame" style="height: 550px; width: 630px;overflow: hidden;">
-                            <iframe
-                                width="100%" height="100%"
-                                src="https://www.youtube.com/embed/tFFf0Cx_ddU?autoplay=1&mute=1&loop=1&playlist=tFFf0Cx_ddU"
-                                frameborder="0"
-                                allow="autoplay; encrypted-media"
-                                allowfullscreen
-                                loading="lazy">
-                            </iframe>
+        </div>
+        <div class="container-fluid p-5">
+            <div class="row">
+                <div class="col-12 text-center mt-5 pt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Services</h1>
+                    <div style="width: 80px; height: 4px; background: #9d0c0cff; margin: 10px auto; border-radius: 2px;"></div>
+                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" style="padding-left: 5vw; padding-right:5vw;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+                        At TAVOL, we deliver premium <strong>crane and lifting solutions</strong>
+                        engineered for maximum performance and safety.
+                        From <strong>custom overhead cranes</strong> to gantry systems, hoist units,
+                        expert installation, training, and comprehensive after-sales service —
+                        we guarantee <strong>reliability, precision, and efficiency</strong>
+                        on every job site.
+                    </p>
+                </div>
+            </div>
+            <div class="row text-justify mt-5 pt-5">
+                <div class="col-12 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Products</h1>
+                    <div style="width: 80px; height: 4px; background: #9d0c0cff; margin: 10px auto; border-radius: 2px;"></div>
+                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" style="padding-left: 5vw; padding-right:5vw; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        TAVOL offers premium <strong>crane and lifting equipment</strong> designed for
+                        <strong>maximum safety, precision, and efficiency</strong>.
+                        From overhead cranes, gantry cranes, and jib cranes to electric hoists,
+                        end carriages, and complete custom lifting solutions, our products deliver
+                        <strong>reliable, heavy-duty performance across industries worldwide</strong>.
+                    </p>
+                </div>
+                <div class="col-12 text-center mt-5 pt-5" data-aos="fade-up" data-aos-duration="1000">
+                    <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Cranes Machinery</h1>
+                    <div style="width: 80px; height: 4px; background: #9d0c0cff; margin: 10px auto; border-radius: 2px;"></div>
+                </div>
+                <div class="row align-items-center" style="margin-left: 0; margin-right: 0;">
+                    <div class="col-md-6 d-flex mt-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                        <div class="custom-img">
+                            <img src="assets/img/tavol/AXEL ASSETS FOR WEBSITE (1)/387.png"
+                                alt="AVANTI Hydraulic Torque Wrench"
+                                class="img-fluid rounded">
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">Tavol Euro-Design Wire Rope Hoist</span></h3>
+                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                            This is a European-style electric wire rope hoist made by Tavol in China. It’s designed with a modern, efficient structure (heritage FEM design), uses inverters for variable speed control, and comes standard with quality components like Schneider electric parts, SZW motors, and an aviation plug. It offers quiet operation (as low as 65 dB), good protection (IP54 rating), high efficiency, and a compact built-in planetary reducer drive.
+
+                        </p>
+                        <div class="row col-md-12">
+                            <div class="col-md-6">
+                                <div class="dropdown">
+                                    <button class="btn btn-danger dropdown-toggle" type="button" id="torqueChartDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                        DOCUMENTATION & RESOURCES
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
+                                        <li><a class="dropdown-item" href="https://www.tavolgroup.com/materials-handling-cranes.html" target="_blank">MORE INFO</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <button class="btn btn-dark" type="button" id="torqueChartDropdown" onclick="window.location.href='index.php#contact'">
+                                        REQUEST A QUOTE
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
+                    <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px; "><span style="font-size: 2rem;">Gantry Crane 20 Ton</span></h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                            A 20-ton gantry crane is a heavy-duty lifting machine that can safely lift loads up to 20 metric tons (about 20,000 kg). It typically consists of a large horizontal beam (girder) supported by two vertical legs, forming a frame that can move (on wheels or rails) across a workspace.
 
-                <div class="col-md-6">
-                    <h1>Services</h1>
-                    <p>
-                        At Tavol, we provide <strong>world-class lifting solutions</strong> through the design, manufacturing,
-                        installation, and maintenance of <strong>cranes, hoists, and lifting equipment</strong>.
-                        Our services go beyond delivering high-quality products — we work closely with clients to provide
-                        <strong>customized engineering support, technical expertise, and reliable solutions</strong>
-                        that ensure safety, efficiency, and long-term durability in the most demanding industries.
-                        From design and production to inspection and after-sales support, Tavol is committed to
-                        excellence in every step of the process.
-                    </p>
-
-                    <p>
-                        Backed by years of proven experience and guided by international safety and quality standards,
-                        Tavol combines advanced technology with precision engineering to deliver lifting solutions
-                        that <strong>optimize performance, reduce downtime, and enhance productivity</strong>.
-                        With a dedicated team focused on innovation and reliability, Tavol is more than a manufacturer —
-                        we are your trusted partner in achieving operational success and sustainable growth.
-                    </p>
-
-                    <ul style="list-style: none; padding: 0; margin-top: 15px;">
-                        <li style="margin-bottom: 12px; display: flex; align-items: center;">
-                            <i class="fa-solid fa-industry" style="color: #0077b6; font-size: 1.2rem; margin-right: 10px;"></i>
-                            Design and fabrication of cranes, hoists, and custom lifting equipment
-                        </li>
-                        <li style="margin-bottom: 12px; display: flex; align-items: center;">
-                            <i class="fa-solid fa-gears" style="color: #6a11cb; font-size: 1.2rem; margin-right: 10px;"></i>
-                            Customized lifting solutions for construction, logistics, and industrial applications
-                        </li>
-                        <li style="margin-bottom: 12px; display: flex; align-items: center;">
-                            <i class="fa-solid fa-shield-alt" style="color: #ff512f; font-size: 1.2rem; margin-right: 10px;"></i>
-                            Rigorous testing and inspection for safety and compliance
-                        </li>
-                        <li style="margin-bottom: 12px; display: flex; align-items: center;">
-                            <i class="fa-solid fa-tools" style="color: #11998e; font-size: 1.2rem; margin-right: 10px;"></i>
-                            Installation, maintenance, repair, and upgrade services
-                        </li>
-                        <li style="display: flex; align-items: center;">
-                            <i class="fa-solid fa-headset" style="color: #f7971e; font-size: 1.2rem; margin-right: 10px;"></i>
-                            Technical consultation, project support, and 24/7 after-sales service
-                        </li>
-                    </ul>
-
-
-
-                </div>
-            </div>
-            <div class="row text-justify mt-5">
-
-
-                <div class="col-md-6">
-                    <h1>Products</h1>
-                    <p>
-                        At Tavol, we deliver high-quality <strong>cranes, hoists, lifts, and material handling solutions</strong>
-                        designed to meet the strictest international standards. Our product range supports industries worldwide —
-                        from construction, logistics, and manufacturing to mining, power generation, and infrastructure development.
-                        Every product is built with <strong>precision, durability, and safety</strong> at its core, ensuring
-                        long-term reliability in even the most demanding environments.
-                    </p>
-                    <p>
-                        With years of proven expertise, Tavol products integrate <strong>advanced engineering, rigorous quality control,
-                            and innovative design</strong> to deliver outstanding performance. From standard models to fully customized
-                        lifting systems, we ensure that every solution is tailored to meet the exact needs of our clients while
-                        maximizing efficiency and minimizing downtime.
-                    </p>
-                    <p>
-                        What sets Tavol apart is our <strong>commitment to innovation and customer partnership</strong>.
-                        We don’t just manufacture lifting equipment — we provide complete solutions backed by technical expertise,
-                        inspection services, and after-sales care. Whether your goal is to improve efficiency, ensure workplace safety,
-                        or extend equipment lifespan, Tavol delivers solutions you can trust.
-                    </p>
-                    <p>
-                        Trusted by industries across the globe, Tavol products are recognized for their reliability in
-                        mission-critical applications. By combining intelligent engineering with modern manufacturing practices,
-                        we continue to push the boundaries of lifting performance — empowering businesses to achieve
-                        sustainable growth and operational excellence.
-                    </p>
-
-                    <ul style="list-style: none; padding: 0; margin-top: 15px;">
-                        <li style="margin-bottom: 12px; display: flex; align-items: center;">
-                            <i class="fas fa-truck-loading" style="font-size: 20px; margin-right: 10px; background: linear-gradient(135deg,#0077b6,#00b4d8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></i>
-                            Overhead cranes, gantry cranes, and jib cranes for heavy lifting
-                        </li>
-                        <li style="margin-bottom: 12px; display: flex; align-items: center;">
-                            <i class="fas fa-arrow-up" style="font-size: 20px; margin-right: 10px; background: linear-gradient(135deg,#6a11cb,#2575fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></i>
-                            Electric hoists and lifting systems for safe and efficient operations
-                        </li>
-                        <li style="margin-bottom: 12px; display: flex; align-items: center;">
-                            <i class="fas fa-hard-hat" style="font-size: 20px; margin-right: 10px; background: linear-gradient(135deg,#ff512f,#dd2476); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></i>
-                            Construction lifts, elevators, and aerial platforms
-                        </li>
-                        <li style="margin-bottom: 12px; display: flex; align-items: center;">
-                            <i class="fas fa-cogs" style="font-size: 20px; margin-right: 10px; background: linear-gradient(135deg,#11998e,#38ef7d); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></i>
-                            Customized lifting equipment and integrated material handling systems
-                        </li>
-                        <li style="display: flex; align-items: center;">
-                            <i class="fas fa-headset" style="font-size: 20px; margin-right: 10px; background: linear-gradient(135deg,#f7971e,#ffd200); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></i>
-                            Inspection, testing, and 24/7 after-sales technical support
-                        </li>
-                    </ul>
-
-                    <p style="margin-top: 20px; font-weight: 500;">
-                        By choosing Tavol, you’re not just investing in equipment — you’re investing in
-                        <strong>efficiency, safety, and sustainable growth</strong>, backed by years of proven lifting expertise.
-                    </p>
-
-
-
-
-
-
-
-                </div>
-                <div class="col-md-6 d-flex">
-                    <div class="mb-4 mb-md-0 custom-img" data-aos="fade-up" data-aos-delay="600"
-                        style="height: 100%; overflow:hidden; justify-content: center; width: 100%; ">
-
-                        <img src="assets/img/polysoude/product1.png"
-                            alt="img"
-                            class="img-fluid rounded"
-                            style="object-fit: cover; width: 100%; height: 100%;">
-
+                        </p>
+                        <div class="row col-md-12">
+                            <div class="col-md-6">
+                                <div class="dropdown">
+                                    <button class="btn btn-danger dropdown-toggle" type="button" id="torqueChartDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                        DOCUMENTATION & RESOURCES
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
+                                        <li><a class="dropdown-item" href="https://www.tavolgroup.com/materials-handling-cranes.html" target="_blank">MORE INFO</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <button class="btn btn-dark" type="button" id="torqueChartDropdown" onclick="window.location.href='index.php#contact'">
+                                        REQUEST A QUOTE
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex mt-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                        <div class="custom-img">
+                            <img src="assets/img/tavol/AXEL ASSETS FOR WEBSITE (1)/388.png"
+                                alt="MXT Hydraulic Torque Wrench"
+                                class="img-fluid rounded">
+                        </div>
                     </div>
                 </div>
+                <div class="row align-items-center no-gutters" style=" margin-left: 0; margin-right: 0;">
+                    <div class="col-md-6 d-flex mt-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                        <div class="custom-img">
+                            <img src="assets/img/tavol/AXEL ASSETS FOR WEBSITE (1)/389.png"
+                                alt="VERSA Hydraulic Torque Wrench"
+                                class="img-fluid rounded">
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">10 Ton Hammerhead Topkits Tower Cranes </span></h3>
+                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                            QTZ125(TC6015) 10ton Tower Crane features stable operation and reliable management due to the adoption of various advanced technologies. This 10ton tower crane is configured with diverse devices like the hydraulic self-propelling device, frequency converting slewing device and a series of reliable safety devices like hoisting height limiter, slewing range limiter and multifunctional limiter.
+                        </p>
+                        <div class="row col-md-12">
+                            <div class="col-md-6">
+                                <div class="dropdown">
+                                    <button class="btn btn-danger dropdown-toggle" type="button" id="torqueChartDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                        DOCUMENTATION & RESOURCES
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
+                                        <li><a class="dropdown-item" href="https://www.tavolgroup.com/materials-handling-cranes.html" target="_blank">MORE INFO</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <button class="btn btn-dark" type="button" id="torqueChartDropdown" onclick="window.location.href='index.php#contact'">
+                                        REQUEST A QUOTE
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
+                    <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">Topless Flat Top Type Tower Crane for Building Construction </span></h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                            Topless Flat Top Type Tower Crane for Building Construction
+
+                            The PT5610 topless tower crane 6ton features stable operation and reliable management due to the adoption of various advanced technologies.
+
+                        </p>
+                        <div class="row col-md-12">
+                            <div class="col-md-6">
+                                <div class="dropdown">
+                                    <button class="btn btn-danger dropdown-toggle" type="button" id="torqueChartDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                        DOCUMENTATION & RESOURCES
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
+                                        <li><a class="dropdown-item" href="https://www.tavolgroup.com/materials-handling-cranes.html" target="_blank">MORE INFO</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <button class="btn btn-dark" type="button" id="torqueChartDropdown" onclick="window.location.href='index.php#contact'">
+                                        REQUEST A QUOTE
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex mt-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                        <div class="custom-img">
+                            <img src="assets/img/tavol/AXEL ASSETS FOR WEBSITE (1)/390.png"
+                                alt="STEALTH Hydraulic Torque Wrench"
+                                class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center" style="margin-left: 0; margin-right: 0;">
+                    <div class="col-md-6 d-flex mt-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                        <div class="custom-img">
+                            <img src="assets/img/tavol/AXEL ASSETS FOR WEBSITE (1)/391.png"
+                                alt="XLCT Hydraulic Torque Wrench"
+                                class="img-fluid rounded">
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">Tavol 15‑ton Double‑Girder Overhead Crane</span></h3>
+                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                            A heavy-duty bridge crane from Tavol, designed to lift up to 15 tonnes. It uses a double-girder configuration, which provides greater strength and stability for large spans. The crane features quality components like CHINT or Schneider electrical parts, forged safety hooks, and can be controlled by either a pendant or remote system. According to Tavol specs: span ranges from 6–31.5 m, lifting height from 3–60 m, and working duty class up to A5/M5.
+                        </p>
+                        <div class="row col-md-12">
+                            <div class="col-md-6">
+                                <div class="dropdown">
+                                    <button class="btn btn-danger dropdown-toggle" type="button" id="torqueChartDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                        DOCUMENTATION & RESOURCES
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
+                                        <li><a class="dropdown-item" href="https://www.tavolgroup.com/materials-handling-cranes.html" target="_blank">MORE INFO</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <button class="btn btn-dark" type="button" id="torqueChartDropdown" onclick="window.location.href='index.php#contact'">
+                                        REQUEST A QUOTE
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
+                    <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">Tavol Brand Heavy Duty Double Girder </span></h3>
+
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                            MG model double girder gantry crane is ideal for outdoor applications where lifting facilities are provided without the cost of a buliding or any supporting steel work.
+
+                        </p>
+                        <div class="row col-md-12">
+                            <div class="col-md-6">
+                                <div class="dropdown">
+                                    <button class="btn btn-danger dropdown-toggle" type="button" id="torqueChartDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                        DOCUMENTATION & RESOURCES
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
+                                        <li><a class="dropdown-item" href="https://www.tavolgroup.com/materials-handling-cranes.html" target="_blank">MORE INFO</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <button class="btn btn-dark" type="button" id="torqueChartDropdown" onclick="window.location.href='index.php#contact'">
+                                        REQUEST A QUOTE
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex mt-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                        <div class="custom-img">
+                            <img src="assets/img/tavol/AXEL ASSETS FOR WEBSITE (1)/392.png"
+                                alt="EDGE S Hydraulic Torque Wrench"
+                                class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-12 text-center mt-5" data-aos="fade-up" data-aos-duration="1000">
+                    <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Pneumatic Tools</h1>
+                    <div style="width: 80px; height: 4px; background: #9d0c0cff; margin: 10px auto; border-radius: 2px;"></div>
+                </div> -->
+                <div class="row align-items-center" style="margin-left: 0; margin-right: 0;">
+                    <div class="col-md-6 d-flex mt-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                        <div class="custom-img">
+                            <img src="assets/img/tavol/AXEL ASSETS FOR WEBSITE (1)/393.png"
+                                alt="jGun SINGLE SPEED Pneumatic Torque Tool"
+                                class="img-fluid rounded">
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">Tavol Jib Crane</span></h3>
+
+                        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                            A Tavol jib crane is a compact, pivoting lifting device that mounts on a pillar (column) or wall. It has a horizontal “jib” arm that can swing (180° or 360°) and supports a hoist for lifting and moving materials in a circular area.
+
+                        </p>
+                        <div class="row col-md-12">
+                            <div class="col-md-6">
+                                <div class="dropdown">
+                                    <button class="btn btn-danger dropdown-toggle" type="button" id="torqueChartDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                        DOCUMENTATION & RESOURCES
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
+                                        <li><a class="dropdown-item" href="https://www.tavolgroup.com/materials-handling-cranes.html" target="_blank">MORE INFO</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <button class="btn btn-dark" type="button" id="torqueChartDropdown" onclick="window.location.href='index.php#contact'">
+                                        REQUEST A QUOTE
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center" style="background-color:lightgrey;margin-left: 0; margin-right: 0;">
+                    <div class="col-md-6 d-flex flex-column mt-4 text-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                        <h3 class="h3-black" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-left: 4px solid #9d0c0cff; padding-left: 10px;"><span style="font-size: 2rem;">QD Overhead Cranes Double Girder with Heavy Duty Working Environment</span></h3>
+                        <p class="p-black" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                            The QD Heavy‑Duty Double‑Girder Overhead Crane is a robust bridge crane built with two parallel girders for increased strength and capacity. It’s engineered for continuous, heavy-duty industrial use—ideal for steel mills, maintenance workshops, stockyards, or large production facilities. Designed for long service life (30–50 years according to some specs), it often uses frequency-inverter controls for smooth, variable-speed operation.
+
+                        </p>
+                        <div class="row col-md-12">
+                            <div class="col-md-6">
+                                <div class="dropdown">
+                                    <button class="btn btn-danger dropdown-toggle" type="button" id="torqueChartDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                        DOCUMENTATION & RESOURCES
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="torqueChartDropdown">
+                                        <li><a class="dropdown-item" href="https://www.tavolgroup.com/materials-handling-cranes.html" target="_blank">MORE INFO</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <button class="btn btn-dark" type="button" id="torqueChartDropdown" onclick="window.location.href='index.php#contact'">
+                                        REQUEST A QUOTE
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex mt-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                        <div class="custom-img">
+                            <img src="assets/img/tavol/AXEL ASSETS FOR WEBSITE (1)/394.png"
+                                alt="jGun DIGITAL SINGLE SPEED Pneumatic Torque Tool"
+                                class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                
+
             </div>
         </div>
-    </div>
+        <div class="container text-center py-4">
+            <div class="social-links mb-2" data-aos="fade-up" data-aos-delay="300">
+                <a href="https://www.facebook.com/boltimizercorp" target="_blank" class="social-link">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://www.tiktok.com/@innoverse24?is_from_webapp=1&sender_device=pc" target="_blank" class="social-link">
+                    <i class="bi bi-tiktok"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/boltimizer-corp/posts/?feedView=all" target="_blank" class="social-link">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </div>
+            <p class="text-muted" data-aos="fade-up" data-aos-delay="300" style="font-size:large;">
+                © <?php echo date('Y'); ?> Boltimizer Corporation. All rights reserved.
+            </p>
+        </div>
+        <?php include("footer.php"); ?>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1000,
+                once: true,
+                offset: 50, // Reduced offset for better mobile experience
+                disable: function() {
+                    return window.innerWidth < 576; // Disable AOS on very small screens if needed
+                }
+            });
+        </script>
+    </body>
 
-
-
-    <?php include("footer.php"); ?>
-</body>
-
-</html>
+    </html>
