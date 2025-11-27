@@ -2621,6 +2621,8 @@ body.dark-mode #pricing .popular-badge {
   display: inline-block;
   width: 80px;
   height: 40px;
+  
+  
 }
 
 .theme-switch input {
@@ -2664,6 +2666,7 @@ body.dark-mode #pricing .popular-badge {
 /* Move circle when checked */
 .theme-switch input:checked+.slider::before {
   transform: translateX(40px);
+  
 }
 
 /* Optional icon color adjustments */
@@ -3319,16 +3322,31 @@ body.dark-mode .service-details ul i {
 }
 
 .video-frame {
+  position: relative;
   width: 100%;
-  border-radius: 10px;
+  max-width: 1000px;           /* Adjust as needed */
+  aspect-ratio: 16 / 9;        /* Standard widescreen */
+  margin: 40px auto;
+  border-radius: 18px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #000;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.35);
 }
 
+/* Hover lift effect */
 .video-frame:hover {
-  transform: scale(1.01);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.45);
+  transition: all 0.5s ease;
+}
+
+/* Mobile: Switch to vertical-friendly ratio */
+@media (max-width: 768px) {
+  .video-frame {
+    aspect-ratio: 9 / 16;
+    margin: 20px auto;
+    border-radius: 14px;
+  }
 }
 
 /* FOOTER DESIGN*/
