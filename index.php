@@ -26,14 +26,15 @@ include("footer.php");
               SUSTAINABLE
               ENGINEERING <br>
               SMARTER </BR>
-               
+
+
               <span style="color: red;">SOLUTIONS</span>
             </h1>
 
             <p class="mb-4 mb-md-5">
-              <strong>“Sustainable Engineering. Smarter Solutions.”</strong>  defines Boltimizer’s approach across our four core pillars: Maintenance Machinery Management, Joint Integrity Management, Engineering Controls, and Renewable & Sustainable Solutions. From precision tools and industrial machinery to power generation, specialized vehicles, and renewable systems, we provide end-to-end solutions that enhance safety, efficiency, and reliability for industries, businesses, and government institutions—delivering smarter innovations with sustainable impact. 
+              <strong>“Sustainable Engineering. Smarter Solutions.”</strong> defines Boltimizer’s approach across our four core pillars: Maintenance Machinery Management, Joint Integrity Management, Engineering Controls, and Renewable & Sustainable Solutions. From precision tools and industrial machinery to power generation, specialized vehicles, and renewable systems, we provide end-to-end solutions that enhance safety, efficiency, and reliability for industries, businesses, and government institutions—delivering smarter innovations with sustainable impact.
             </p>
-            
+
             <p></p>
 
             <div class="hero-buttons">
@@ -49,16 +50,24 @@ include("footer.php");
         <div class="col-lg-6">
           <div class="hero-image aos-init aos-animate" data-aos="zoom-out" data-aos-delay="300">
 
-           <div class="video-frame" style="height: 450px; width: 42vw; overflow: hidden; ">
-  <iframe 
-    width="100%" 
-    height="450" 
-    src="https://www.youtube.com/embed/knalkqGXt0k?autoplay=1&mute=1&loop=1&controls=1" 
-    frameborder="0" 
-    allow="autoplay; encrypted-media" 
-    allowfullscreen>
-  </iframe>
-</div>
+            <div class="video-frame">
+              <video
+                autoplay
+                muted
+                loop
+                playsinline
+                class="bg-video"
+                style="
+      width: 100%; 
+      height: 100%; 
+      object-fit: cover;
+      border-radius: 18px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+    ">
+                <source src="assets/video/boltimizer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
 
             <!-- ICON INSIDE VIDEO 
             <div class="customers-badge">
@@ -223,13 +232,13 @@ include("footer.php");
             </div>
           </div>
 
-          
+
         </div>
 
         <div class="col-xl-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
           <div class="image-wrapper " style="margin-top: -300px;">
             <div class="images position-absolute aos-init aos-animate" data-aos="zoom-out" data-aos-delay="400">
-              <img src="assets/img/hiring.png" alt="Business Meeting" class="img-fluid main-image rounded-4">
+              <img src="assets/img/hiring-val.png" alt="Business Meeting" class="img-fluid main-image rounded-4">
               <img src="assets/img/front.png" alt="Team Discussion" class="img-fluid small-image rounded-4">
             </div>
             <a href="#contact" class="experience-badge floating">
@@ -653,7 +662,7 @@ include("footer.php");
   </div>
 -->
 
-s
+
 
     <!-- Features 2 Section -->
     <section id="features-2" class="features-2 section">
@@ -813,8 +822,8 @@ s
     </section>
   -->
 
-           
-   <!--
+
+    <!--
     <section id="testimonials" class="testimonials section light-background">
 
     
@@ -1013,196 +1022,227 @@ s
 
       </div>
 
-    </section><!-- /Services Section -->
+    </section>
+    <!-- /Services Section -->
     <section id="features-cards" class="features-cards section" data-aos="fade-up" data-aos-delay="300">
-        <div class="container aos-init aos-animate" data-aos="fade-up">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
 
-          <div class="swiper init-swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
-            <script type="application/json" class="swiper-config">
-              {
-                "loop": true,
-                "speed": 600,
-                "autoplay": {
-                  "delay": 4000
+        <div class="swiper init-swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 4000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 20
                 },
-                "slidesPerView": "auto",
-                "pagination": {
-                  "el": ".swiper-pagination",
-                  "clickable": true
+                "576": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 20
                 },
-                "breakpoints": {
-                  "320": {
-                    "slidesPerView": 1,
-                    "spaceBetween": 20
-                  },
-                  "576": {
-                    "slidesPerView": 2,
-                    "spaceBetween": 20
-                  },
-                  "768": {
-                    "slidesPerView": 3,
-                    "spaceBetween": 30
-                  },
-                  "992": {
-                    "slidesPerView": 4,
-                    "spaceBetween": 30
-                  }
+                "768": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 30
+                },
+                "992": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 30
                 }
               }
-            </script>
+            }
+          </script>
 
-            <div class="swiper-wrapper" id="swiper-wrapper-4dc8a11015753a83e" aria-live="off" style="transition-duration: 600ms; transform: translate3d(-651px, 0px, 0px);">
-              <div class="swiper-slide" style="height:315px;width: 295.5px; margin-right: 30px;" role="group" aria-label="2 / 6" data-swiper-slide-index="1">
-                <div class="feature-box">
-                  <i class="bi bi-wrench-adjustable"></i>
-                  <h4>Tool Rental</h4>
-                  <p>Rent top-quality tools for any project—power drills, mixers, lawn gear, and more. Affordable, flexible rentals with expert support to help you get the job done right.</p>
-                </div>
+          <div class="swiper-wrapper" id="swiper-wrapper-4dc8a11015753a83e" aria-live="off" style="transition-duration: 600ms; transform: translate3d(-651px, 0px, 0px);">
+            <!-- Slide 1 -->
+
+
+            <!-- Slide 2 -->
+
+
+            <!-- Slide 3 -->
+
+
+            <!-- Slide 4 -->
+
+
+            <!-- Slide 5 -->
+
+
+            <!-- Slide 6 -->
+
+            <div class="swiper-slide" style="width: 295.5px; margin-right: 30px; height:315px " role="group" aria-label="1 / 5" data-swiper-slide-index="1">
+              <div class="feature-box blue">
+                <i class="bi bi-award"></i>
+                <h4>Tool Rental</h4>
+                <p>Rent top-quality tools for any project—power drills, mixers, lawn gear, and more. Affordable, flexible rentals with expert support to help you get the job done right.</p>
               </div>
-              <div class="swiper-slide swiper-slide-prev" style="width: 295.5px; height:315px; margin-right: 30px;" role="group" aria-label="3 / 6" data-swiper-slide-index="2">
-                <div class="feature-box red">
+            </div>
+
+            <div class="swiper-slide swiper-slide-prev" style="width: 295.5px; margin-right: 30px; height:315px" role="group" aria-label="2 / 5" data-swiper-slide-index="2">
+              <div class="feature-box green">
                 <i class="bi bi-gear-fill"></i>
-                  <h4>Tool Calibration</h4>
-                  <p>Keep your tools accurate and compliant. We calibrate torque wrenches, meters, and more—providing certified results so you can work with confidence and meet industry standards.</p>
-                  <br>
-                </div>
-              </div>
-              
-              <div class="swiper-slide swiper-slide-next" style="width: 295.5px; height:315px; margin-right: 30px;" role="group" aria-label="5 / 6" data-swiper-slide-index="4">
-                <div class="feature-box blue">
-                  <i class="bi bi-nut-fill"></i>
-                  <h4>On-site Bolting Survey</h4>
-                  <p>An on-site bolting survey inspects bolt condition, torque, and alignment to ensure safety and compliance. It identifies issues like looseness or corrosion.</p>
-                  <br>
-                </div>
-              </div>
-              <div class="swiper-slide" style="width: 295.5px; height:315px; margin-right: 30px;" role="group" aria-label="6 / 6" data-swiper-slide-index="5">
-                <div class="feature-box green">
-                  <i class="bi bi-bricks"></i>
-                  <h4>Custom Engineering</h4>
-                  <p>Custom engineering delivers tailored design solutions and specialized components, meeting unique project requirements while ensuring optimal performance.</p>
-                </div>
-              </div>
-              <div class="swiper-slide" style="width: 295.5px; height: 315px; margin-right: 30px;" role="group" aria-label="1 / 6" data-swiper-slide-index="0">
-                <div class="feature-box orange">
-                  <i class="bi bi-award"></i>
-                  <h4>Techinal Training </h4>
-                  <p>We prioritize high-quality work and take responsibility for results, ensuring accountability and integrity in all our actions.</p>
-                </div>
+                <h4>Tool Calibration</h4>
+                <p>Keep your tools accurate and compliant. We calibrate torque wrenches, meters, and more—providing certified results so you can work with confidence and meet industry standards.</p>
+                <br>
               </div>
             </div>
-            <br>
-            <br>
-            <!-- Pagination (dots) -->
-            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 4" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span></div>
-            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-          </div>
-        </div>
-      </section>
-    </div>
-    </section><!-- /Services Section -->
 
-
-
-    <!-- Faq Section -->
-    <section class="faq-9 faq section light-background" id="faq">
-
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
-            <h2 class="faq-title" data-aos="fade-up" data-aos-delay="300">Have a question? Check out the FAQ</h2>
-            <p class="faq-description" data-aos="fade-up" data-aos-delay="300">Got questions about Boltimizer? Our FAQ section has quick answers to the most common
-              inquiries about our solutions, how to get started, and technical support.
-            </p>
-            <div class="faq-arrow d-none d-lg-block aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-              <svg class="faq-arrow" width="200" height="211" viewBox="0 0 200 211" fill="none" xmlns="http://www.w3.org/2000/svg" data-aos="fade-up" data-aos-delay="300">
-                <path d="M198.804 194.488C189.279 189.596 179.529 185.52 169.407 182.07L169.384 182.049C169.227 181.994 169.07 181.939 168.912 181.884C166.669 181.139 165.906 184.546 167.669 185.615C174.053 189.473 182.761 191.837 189.146 195.695C156.603 195.912 119.781 196.591 91.266 179.049C62.5221 161.368 48.1094 130.695 56.934 98.891C84.5539 98.7247 112.556 84.0176 129.508 62.667C136.396 53.9724 146.193 35.1448 129.773 30.2717C114.292 25.6624 93.7109 41.8875 83.1971 51.3147C70.1109 63.039 59.63 78.433 54.2039 95.0087C52.1221 94.9842 50.0776 94.8683 48.0703 94.6608C30.1803 92.8027 11.2197 83.6338 5.44902 65.1074C-1.88449 41.5699 14.4994 19.0183 27.9202 1.56641C28.6411 0.625793 27.2862 -0.561638 26.5419 0.358501C13.4588 16.4098 -0.221091 34.5242 0.896608 56.5659C1.8218 74.6941 14.221 87.9401 30.4121 94.2058C37.7076 97.0203 45.3454 98.5003 53.0334 98.8449C47.8679 117.532 49.2961 137.487 60.7729 155.283C87.7615 197.081 139.616 201.147 184.786 201.155L174.332 206.827C172.119 208.033 174.345 211.287 176.537 210.105C182.06 207.125 187.582 204.122 193.084 201.144C193.346 201.147 195.161 199.887 195.423 199.868C197.08 198.548 193.084 201.144 195.528 199.81C196.688 199.192 197.846 198.552 199.006 197.935C200.397 197.167 200.007 195.087 198.804 194.488ZM60.8213 88.0427C67.6894 72.648 78.8538 59.1566 92.1207 49.0388C98.8475 43.9065 106.334 39.2953 114.188 36.1439C117.295 34.8947 120.798 33.6609 124.168 33.635C134.365 33.5511 136.354 42.9911 132.638 51.031C120.47 77.4222 86.8639 93.9837 58.0983 94.9666C58.8971 92.6666 59.783 90.3603 60.8213 88.0427Z" fill="currentColor" data-aos="fade-up" data-aos-delay="300"></path>
-              </svg>
+            <div class="swiper-slide swiper-slide-active" style="width: 295.5px; margin-right: 30px; height:315px" role="group" aria-label="3 / 5" data-swiper-slide-index="3">
+              <div class="feature-box red">
+                <i class="bi bi-nut-fill"></i>
+                <h4>On-site Bolting Survey</h4>
+                <p>An on-site bolting survey inspects bolt condition, torque, and alignment to ensure safety and compliance. It identifies issues like looseness or corrosion.</p>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-7 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-            <div class="faq-container">
-
-              <div class="faq-item faq-active." data-aos="fade-up" data-aos-delay="300">
-                <h4>Frequently Asked Questions</h4>
-                <div class="faq-content">
-                  <p>At Boltimizer, we are committed to delivering high-quality engineering solutions and exceptional client service.
-                    This FAQ section is designed to provide clear and concise answers to the most commonly asked questions regarding
-                    our products, services, and operational processes. Whether you're exploring a partnership or are an existing client,
-                    we hope this resource enhances your experience and understanding of what Boltimizer offers. For further inquiries,
-                    our support team is readily available to assist you.
-                  </p>
-                </div>
-
-              </div><!-- End Faq item-->
-
-              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="300">
-                <h5 style="color: red;">Who We Are</h5>
-                <div class="faq-content">
-                  <p>Boltimizer is a solutions-driven company committed to transforming industries through innovative engineering, reliable tools, and sustainable technologies. Built on a foundation of expertise, integrity, and customer focus, we deliver products and services that raise safety, productivity, and efficiency across a wide range of sectors—from industrial plants and construction sites to renewable energy projects and government institutions. <br> <br>
-
-                    We understand that today’s businesses need more than just equipment—they need partners who can provide end-to-end solutions that anticipate challenges, minimize downtime, and maximize long-term value. That’s why Boltimizer has positioned itself as more than a supplier. We are a growth partner, bringing together world-class products, technical expertise, and after-sales support to help clients stay ahead in an increasingly competitive landscape.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="300">
-                <h5 style="color: red;">What We Do</h5>
-                <div class="faq-content">
-                  <p>At Boltimizer, we provide tools, equipment, and engineering solutions that cover four core pillars of our business: <br> <br>
-
-                    Maintenance Machinery Management – We offer advanced hydraulic bolting systems, lathe machines, CNC machines, and hand tools that ensure precision, reliability, and efficiency in industrial operations. <br> <br>
-
-                    Joint Integrity Management – Through high-quality hydraulic equipment, torque wrenches, and bolting solutions, we help companies maintain safety and compliance in critical applications such as power plants, oil and gas, and heavy industries. <br> <br>
-
-                    Engineering Controls – We design and deliver automation-ready solutions including compressors, generators, and robotics such as PV cleaning systems for solar farms, glass buildings, and wind turbines. <br> <br>
-
-                    Renewable & Sustainable Solutions – From solar panel installations and smart solar streetlights to Battery Energy Storage Systems (BESS) and portable power stations, we support the transition toward cleaner, smarter energy. <br> <br>
-
-                  </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="300">
-                <h5 style="color: red;">Why Choose Boltimizer</h5>
-                <div class="faq-content">
-                  <p>Global Partnerships, Local Expertise – We collaborate with leading international manufacturers to bring cutting-edge products to the Philippines, while ensuring compliance with local standards and conditions. <br> <br>
-
-                    Comprehensive Support – Our solutions go beyond supply. We provide installation, repair, commissioning, and after-sales services to ensure continuous performance. <br> <br>
-
-                    Sustainability Focus – Boltimizer champions green innovations that align with the future of energy and infrastructure, enabling clients to reduce environmental impact without compromising productivity. <br> <br>
-
-                    Trusted Across Sectors – Our clients span industries such as energy, government, education, commercial establishments, and manufacturing, all of whom trust Boltimizer to deliver reliable and future-proof solutions.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="300">
-                <h5 style="color: red;">Our Commitment</h5>
-                <div class="faq-content">
-                  <p>We believe that true innovation is not just about introducing new technologies—it’s about solving real-world problems with purpose. Boltimizer is dedicated to creating value for our clients, opportunities for our people, and progress for our community. <br> <br>
-
-                    With every project, we live by our mission: <br>
-                    “Sustainable Engineering. Smarter Solutions.” <br> <br>
-
-                    Boltimizer isn’t just a provider of tools and machines. We are a partner in building the future—safer, smarter, and more sustainable.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-             
-
+            <div class="swiper-slide swiper-slide-next" style="width: 295.5px; margin-right: 30px; height:315px" role="group" aria-label="4 / 5" data-swiper-slide-index="4">
+              <div class="feature-box blue">
+                <i class="bi bi-bricks"></i>
+                <h4>Custom Engineering</h4>
+                <p>Custom engineering delivers tailored design solutions and specialized components, meeting unique project requirements while ensuring optimal performance.</p>
+                <br>
+              </div>
             </div>
-          </div>
 
+            <div class="swiper-slide" style="width: 295.5px; margin-right: 30px; height:315px" role="group" aria-label="5 / 5" data-swiper-slide-index="5">
+              <div class="feature-box green">
+                <i class="bi bi-award"></i>
+                <h4>Technical Training</h4>
+                <p>We prioritize high-quality work and take responsibility for results, ensuring accountability and integrity in all our actions.</p>
+              </div>
+            </div>
+
+
+
+
+          </div>
+          <br>
+          <br>
+          <!-- Pagination (dots) -->
+          <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 4" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span></div>
+          <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
         </div>
       </div>
-    </section><!-- /Faq Section -->
+    </section>
+    </div>
+    <!--
+    <center>
+      <a href="about.php" class="custom-btn" data-aos="fade-up" data-aos-delay="300">Learn more</a>
+    </center>
+            -->
+  </section>
+  <!-- /Services Section -->
 
-    <!-- Call To Action 2 Section 
+
+
+  <!-- Faq Section -->
+  <section class="faq-9 faq section light-background" id="faq">
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+          <h2 class="faq-title" data-aos="fade-up" data-aos-delay="300">Have a question? Check out the FAQ</h2>
+          <p class="faq-description" data-aos="fade-up" data-aos-delay="300">Got questions about Boltimizer? Our FAQ section has quick answers to the most common
+            inquiries about our solutions, how to get started, and technical support.
+          </p>
+          <div class="faq-arrow d-none d-lg-block aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+            <svg class="faq-arrow" width="200" height="211" viewBox="0 0 200 211" fill="none" xmlns="http://www.w3.org/2000/svg" data-aos="fade-up" data-aos-delay="300">
+              <path d="M198.804 194.488C189.279 189.596 179.529 185.52 169.407 182.07L169.384 182.049C169.227 181.994 169.07 181.939 168.912 181.884C166.669 181.139 165.906 184.546 167.669 185.615C174.053 189.473 182.761 191.837 189.146 195.695C156.603 195.912 119.781 196.591 91.266 179.049C62.5221 161.368 48.1094 130.695 56.934 98.891C84.5539 98.7247 112.556 84.0176 129.508 62.667C136.396 53.9724 146.193 35.1448 129.773 30.2717C114.292 25.6624 93.7109 41.8875 83.1971 51.3147C70.1109 63.039 59.63 78.433 54.2039 95.0087C52.1221 94.9842 50.0776 94.8683 48.0703 94.6608C30.1803 92.8027 11.2197 83.6338 5.44902 65.1074C-1.88449 41.5699 14.4994 19.0183 27.9202 1.56641C28.6411 0.625793 27.2862 -0.561638 26.5419 0.358501C13.4588 16.4098 -0.221091 34.5242 0.896608 56.5659C1.8218 74.6941 14.221 87.9401 30.4121 94.2058C37.7076 97.0203 45.3454 98.5003 53.0334 98.8449C47.8679 117.532 49.2961 137.487 60.7729 155.283C87.7615 197.081 139.616 201.147 184.786 201.155L174.332 206.827C172.119 208.033 174.345 211.287 176.537 210.105C182.06 207.125 187.582 204.122 193.084 201.144C193.346 201.147 195.161 199.887 195.423 199.868C197.08 198.548 193.084 201.144 195.528 199.81C196.688 199.192 197.846 198.552 199.006 197.935C200.397 197.167 200.007 195.087 198.804 194.488ZM60.8213 88.0427C67.6894 72.648 78.8538 59.1566 92.1207 49.0388C98.8475 43.9065 106.334 39.2953 114.188 36.1439C117.295 34.8947 120.798 33.6609 124.168 33.635C134.365 33.5511 136.354 42.9911 132.638 51.031C120.47 77.4222 86.8639 93.9837 58.0983 94.9666C58.8971 92.6666 59.783 90.3603 60.8213 88.0427Z" fill="currentColor" data-aos="fade-up" data-aos-delay="300"></path>
+            </svg>
+          </div>
+        </div>
+
+        <div class="col-lg-7 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+          <div class="faq-container">
+
+            <div class="faq-item faq-active." data-aos="fade-up" data-aos-delay="300">
+              <h4>Frequently Asked Questions</h4>
+              <div class="faq-content">
+                <p>At Boltimizer, we are committed to delivering high-quality engineering solutions and exceptional client service.
+                  This FAQ section is designed to provide clear and concise answers to the most commonly asked questions regarding
+                  our products, services, and operational processes. Whether you're exploring a partnership or are an existing client,
+                  we hope this resource enhances your experience and understanding of what Boltimizer offers. For further inquiries,
+                  our support team is readily available to assist you.
+                </p>
+              </div>
+
+            </div><!-- End Faq item-->
+
+            <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="300">
+              <h5 style="color: red;">Who We Are</h5>
+              <div class="faq-content">
+                <p>Boltimizer is a solutions-driven company committed to transforming industries through innovative engineering, reliable tools, and sustainable technologies. Built on a foundation of expertise, integrity, and customer focus, we deliver products and services that raise safety, productivity, and efficiency across a wide range of sectors—from industrial plants and construction sites to renewable energy projects and government institutions. <br> <br>
+
+                  We understand that today’s businesses need more than just equipment—they need partners who can provide end-to-end solutions that anticipate challenges, minimize downtime, and maximize long-term value. That’s why Boltimizer has positioned itself as more than a supplier. We are a growth partner, bringing together world-class products, technical expertise, and after-sales support to help clients stay ahead in an increasingly competitive landscape.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="300">
+              <h5 style="color: red;">What We Do</h5>
+              <div class="faq-content">
+                <p>At Boltimizer, we provide tools, equipment, and engineering solutions that cover four core pillars of our business: <br> <br>
+
+                  Maintenance Machinery Management – We offer advanced hydraulic bolting systems, lathe machines, CNC machines, and hand tools that ensure precision, reliability, and efficiency in industrial operations. <br> <br>
+
+                  Joint Integrity Management – Through high-quality hydraulic equipment, torque wrenches, and bolting solutions, we help companies maintain safety and compliance in critical applications such as power plants, oil and gas, and heavy industries. <br> <br>
+
+                  Engineering Controls – We design and deliver automation-ready solutions including compressors, generators, and robotics such as PV cleaning systems for solar farms, glass buildings, and wind turbines. <br> <br>
+
+                  Renewable & Sustainable Solutions – From solar panel installations and smart solar streetlights to Battery Energy Storage Systems (BESS) and portable power stations, we support the transition toward cleaner, smarter energy. <br> <br>
+
+                </p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="300">
+              <h5 style="color: red;">Why Choose Boltimizer</h5>
+              <div class="faq-content">
+                <p>Global Partnerships, Local Expertise – We collaborate with leading international manufacturers to bring cutting-edge products to the Philippines, while ensuring compliance with local standards and conditions. <br> <br>
+
+                  Comprehensive Support – Our solutions go beyond supply. We provide installation, repair, commissioning, and after-sales services to ensure continuous performance. <br> <br>
+
+                  Sustainability Focus – Boltimizer champions green innovations that align with the future of energy and infrastructure, enabling clients to reduce environmental impact without compromising productivity. <br> <br>
+
+                  Trusted Across Sectors – Our clients span industries such as energy, government, education, commercial establishments, and manufacturing, all of whom trust Boltimizer to deliver reliable and future-proof solutions.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="300">
+              <h5 style="color: red;">Our Commitment</h5>
+              <div class="faq-content">
+                <p>We believe that true innovation is not just about introducing new technologies—it’s about solving real-world problems with purpose. Boltimizer is dedicated to creating value for our clients, opportunities for our people, and progress for our community. <br> <br>
+
+                  With every project, we live by our mission: <br>
+                  “Sustainable Engineering. Smarter Solutions.” <br> <br>
+
+                  Boltimizer isn’t just a provider of tools and machines. We are a partner in building the future—safer, smarter, and more sustainable.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- /Faq Section -->
+
+  <!-- Call To Action 2 Section 
   <section id="call-to-action-2" class="call-to-action-2 section dark-background">
 
     <div class="container">
@@ -1221,119 +1261,119 @@ s
 
 
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section light-background">
+  <!-- Contact Section -->
+  <section id="contact" class="contact section light-background">
 
-      <!-- Section Title -->
-      <div class="container section-title aos-init" data-aos="fade-up">
-        <h2>Support & Inquiries</h2>
-        <p>If you have any concerns or require additional information, please do not hesitate to contact us. </p>
-      </div><!-- End Section Title -->
+    <!-- Section Title -->
+    <div class="container section-title aos-init" data-aos="fade-up">
+      <h2>Support & Inquiries</h2>
+      <p>If you have any concerns or require additional information, please do not hesitate to contact us. </p>
+    </div><!-- End Section Title -->
 
-      <div class="container aos-init" data-aos="fade-up" data-aos-delay="100">
+    <div class="container aos-init" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row g-4 g-lg-5">
-          <div class="col-lg-5">
-            <div class="info-box aos-init" data-aos="fade-up" data-aos-delay="200">
-              <h3>Contact Info</h3>
-              <p>You may reach us through the contact details below for any inquiries, support, or further assistance. We look forward to connecting with you.</p>
+      <div class="row g-4 g-lg-5">
+        <div class="col-lg-5">
+          <div class="info-box aos-init" data-aos="fade-up" data-aos-delay="200">
+            <h3>Contact Info</h3>
+            <p>You may reach us through the contact details below for any inquiries, support, or further assistance. We look forward to connecting with you.</p>
 
-              <div class="info-item aos-init" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon-box">
-                  <i class="bi bi-geo-alt"></i>
-                </div>
-                <div class="content">
-                  <h4>Our Location</h4>
-                  <p>Blk 73 Lot 19 Labayani Street, corner
-                    Commonwealth Avenue, <br>North Fairview 2
-                    Quezon City Metro Manila Philippines 1121</p>
-                </div>
+            <div class="info-item aos-init" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon-box">
+                <i class="bi bi-geo-alt"></i>
               </div>
-
-              <div class="info-item aos-init" data-aos="fade-up" data-aos-delay="500">
-                <div class="icon-box">
-                  <i class="bi bi-clock"></i>
-                </div>
-                <div class="content">
-                  <h4>Office Hours</h4>
-                  <p>Monday to Friday, 8AM – 5PM (PHT)</p>
-
-                </div>
+              <div class="content">
+                <h4>Our Location</h4>
+                <p>Blk 73 Lot 19 Labayani Street, corner
+                  Commonwealth Avenue, <br>North Fairview 2
+                  Quezon City Metro Manila Philippines 1121</p>
               </div>
-
-              <div class="info-item aos-init" data-aos="fade-up" data-aos-delay="400">
-                <div class="icon-box">
-                  <i class="bi bi-telephone"></i>
-                </div>
-                <div class="content">
-                  <h4>Contact Number</h4>
-                  <p>(+63) 977-8038210</p>
-                  <p>(+63) 961-2091700</p>
-                </div>
-              </div>
-
-              <div class="info-item aos-init" data-aos="fade-up" data-aos-delay="500">
-                <div class="icon-box">
-                  <i class="bi bi-envelope"></i>
-                </div>
-                <div class="content">
-                  <h4>Email Address</h4>
-                  <p>inquiry@boltimizer.com</p>
-                  <p>info@boltimizer.com</p>
-                </div>
-              </div>
-
             </div>
-          </div>
 
-          <div class="col-lg-7">
-            <div class="contact-form aos-init  " data-aos="fade-up" data-aos-delay="300">
-              <h3>Get In Touch</h3>
+            <div class="info-item aos-init" data-aos="fade-up" data-aos-delay="500">
+              <div class="icon-box">
+                <i class="bi bi-clock"></i>
+              </div>
+              <div class="content">
+                <h4>Office Hours</h4>
+                <p>Monday to Friday, 8AM – 5PM (PHT)</p>
 
-              <form id="contactForm" method="post" action="send.php" class="php-email-form" autocomplete="off" data-aos="fade-up" data-aos-delay="200">
-                <div class="row gy-4">
-                  <div class="col-md-6">
-                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-                  </div>
-
-                  <div class="col-6">
-                    <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-                  </div>
-                  <div class="col-md-12">
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="contact_number"
-                      placeholder="Contact Number"
-                      required
-                      maxlength="11"
-                      pattern="\d{11}"
-                      title="Please enter exactly 11 digits"
-                      oninput="this.value = this.value.replace(/[^0-9]/g, '')">
-
-                  </div>
-
-                  <div class="col-12">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                  </div>
-
-                  <div class="col-12 text-center">
-                    <button type="submit" name="send" class="btn-submit">Send</button>
-                  </div>
-                </div>
-              </form>
-
-
-
-
+              </div>
             </div>
-          </div>
 
+            <div class="info-item aos-init" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon-box">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <div class="content">
+                <h4>Contact Number</h4>
+                <p>(+63) 977-8038210</p>
+                <p>(+63) 961-2091700</p>
+              </div>
+            </div>
+
+            <div class="info-item aos-init" data-aos="fade-up" data-aos-delay="500">
+              <div class="icon-box">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <div class="content">
+                <h4>Email Address</h4>
+                <p>inquiry@boltimizer.com</p>
+                <p>info@boltimizer.com</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="contact-form aos-init  " data-aos="fade-up" data-aos-delay="300">
+            <h3>Get In Touch</h3>
+
+            <form id="contactForm" method="post" action="send.php" class="php-email-form" autocomplete="off" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-6">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="col-md-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="contact_number"
+                    placeholder="Contact Number"
+                    required
+                    maxlength="11"
+                    pattern="\d{11}"
+                    title="Please enter exactly 11 digits"
+                    oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+
+                </div>
+
+                <div class="col-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-12 text-center">
+                  <button type="submit" name="send" class="btn-submit">Send</button>
+                </div>
+              </div>
+            </form>
+
+
+
+
+          </div>
         </div>
 
       </div>
 
-    </section><!-- /Contact Section -->
+    </div>
+
+  </section><!-- /Contact Section -->
 
 </main>
 <div class="container text-center py-4">
